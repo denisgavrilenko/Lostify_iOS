@@ -13,6 +13,7 @@
 		4FB77AA01DA44D1600C782B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FB77A9F1DA44D1600C782B0 /* Assets.xcassets */; };
 		4FB77AA31DA44D1600C782B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FB77AA11DA44D1600C782B0 /* LaunchScreen.storyboard */; };
 		4FB77AAE1DA44D1600C782B0 /* LostifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB77AAD1DA44D1600C782B0 /* LostifyTests.swift */; };
+		4FB77ABA1DA4564E00C782B0 /* Typhoon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FB77AB91DA4564E00C782B0 /* Typhoon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		4FB77AA91DA44D1600C782B0 /* LostifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LostifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FB77AAD1DA44D1600C782B0 /* LostifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostifyTests.swift; sourceTree = "<group>"; };
 		4FB77AAF1DA44D1600C782B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FB77AB91DA4564E00C782B0 /* Typhoon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Typhoon.framework; path = ../Carthage/Build/iOS/Typhoon.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FB77ABA1DA4564E00C782B0 /* Typhoon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +65,7 @@
 				4FB77A971DA44D1600C782B0 /* Lostify */,
 				4FB77AAC1DA44D1600C782B0 /* LostifyTests */,
 				4FB77A961DA44D1600C782B0 /* Products */,
+				4FB77AB81DA4564E00C782B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +100,14 @@
 			path = LostifyTests;
 			sourceTree = "<group>";
 		};
+		4FB77AB81DA4564E00C782B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FB77AB91DA4564E00C782B0 /* Typhoon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +118,7 @@
 				4FB77A911DA44D1500C782B0 /* Sources */,
 				4FB77A921DA44D1500C782B0 /* Frameworks */,
 				4FB77A931DA44D1500C782B0 /* Resources */,
+				4FB77ABB1DA4567C00C782B0 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -195,6 +208,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FB77ABB1DA4567C00C782B0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Typhoon.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4FB77A911DA44D1500C782B0 /* Sources */ = {
@@ -341,6 +371,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FQAXAS293G;
 				INFOPLIST_FILE = Lostify/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.DreamTeam.Lostify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -354,6 +385,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FQAXAS293G;
 				INFOPLIST_FILE = Lostify/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.DreamTeam.Lostify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
