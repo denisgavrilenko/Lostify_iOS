@@ -59,6 +59,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F2CC6461DA53372002526A2 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				4F2CC6491DA53B01002526A2 /* PresentationLevel */,
+				4F2CC6481DA53B01002526A2 /* BusinessLogicLevel */,
+				4F2CC6471DA53B01002526A2 /* CoreLevel */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		4F2CC6471DA53B01002526A2 /* CoreLevel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreLevel;
+			sourceTree = "<group>";
+		};
+		4F2CC6481DA53B01002526A2 /* BusinessLogicLevel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BusinessLogicLevel;
+			sourceTree = "<group>";
+		};
+		4F2CC6491DA53B01002526A2 /* PresentationLevel */ = {
+			isa = PBXGroup;
+			children = (
+				4F2CC64C1DA53B4E002526A2 /* Application */,
+				4F2CC64B1DA53B4E002526A2 /* Helper */,
+				4F2CC64A1DA53B4E002526A2 /* UserStory */,
+			);
+			path = PresentationLevel;
+			sourceTree = "<group>";
+		};
+		4F2CC64A1DA53B4E002526A2 /* UserStory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UserStory;
+			sourceTree = "<group>";
+		};
+		4F2CC64B1DA53B4E002526A2 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		4F2CC64C1DA53B4E002526A2 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
 		4FB77A8C1DA44D1500C782B0 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +136,7 @@
 		4FB77A971DA44D1600C782B0 /* Lostify */ = {
 			isa = PBXGroup;
 			children = (
+				4F2CC6461DA53372002526A2 /* Dependencies */,
 				4FB77A981DA44D1600C782B0 /* AppDelegate.swift */,
 				4FB77A9A1DA44D1600C782B0 /* ViewController.swift */,
 				4FB77A9C1DA44D1600C782B0 /* Main.storyboard */,
