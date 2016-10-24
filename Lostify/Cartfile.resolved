@@ -1,1 +1,5 @@
+github "Alamofire/Alamofire" "4.0.1"
+github "ReactiveCocoa/ReactiveCocoa" "v2.5"
+github "antitypical/Result" "3.0.0"
 github "appsquickly/Typhoon" "3.5.1"
+github "ReactiveCocoa/ReactiveSwift" "1.0.0-alpha.3"

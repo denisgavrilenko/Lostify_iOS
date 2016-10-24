@@ -9,7 +9,7 @@
 import UIKit
 
 class InitialViewController: UIViewController {
-    var viewModel: InitialViewModel?
+    final var viewModel: InitialViewModel?
     
     override func viewDidLoad() {
         super.viewDidLoad()
