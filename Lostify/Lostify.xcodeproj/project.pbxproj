@@ -20,6 +20,13 @@
 		4F74645E1DBE24C200D07A03 /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7464541DBE22E000D07A03 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4F74645F1DBE24D100D07A03 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7464561DBE22E500D07A03 /* ReactiveCocoa.framework */; };
 		4F7464601DBE24D100D07A03 /* ReactiveCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7464561DBE22E500D07A03 /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4F7464811DBE9BCE00D07A03 /* HelperAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7464801DBE9BCE00D07A03 /* HelperAssembly.swift */; };
+		4F7464841DBE9C0A00D07A03 /* ApplicationAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7464831DBE9C0A00D07A03 /* ApplicationAssembly.swift */; };
+		4F7464861DBE9C2C00D07A03 /* UserStoryAssemblyBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7464851DBE9C2C00D07A03 /* UserStoryAssemblyBase.swift */; };
+		4F7464881DBE9D7E00D07A03 /* AuthorizationUserStoryAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7464871DBE9D7E00D07A03 /* AuthorizationUserStoryAssembly.swift */; };
+		4F74648B1DBE9DF400D07A03 /* AuthorizationStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F74648A1DBE9DF400D07A03 /* AuthorizationStory.storyboard */; };
+		4F74648E1DBE9EE000D07A03 /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F74648D1DBE9EE000D07A03 /* AuthorizationViewController.swift */; };
+		4F7464911DBEA4DB00D07A03 /* AuthorizationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7464901DBEA4DB00D07A03 /* AuthorizationRouter.swift */; };
 		4F8D95901DA68AC500657106 /* InitialStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F8D958E1DA68AC500657106 /* InitialStory.storyboard */; };
 		4F8D95941DA68CB600657106 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D95931DA68CB600657106 /* InitialViewController.swift */; };
 		4F8D95981DA693D400657106 /* InitialViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D95971DA693D400657106 /* InitialViewModel.swift */; };
@@ -63,6 +70,13 @@
 		4F7464521DBE22D300D07A03 /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/iOS/ReactiveSwift.framework; sourceTree = "<group>"; };
 		4F7464541DBE22E000D07A03 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
 		4F7464561DBE22E500D07A03 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		4F7464801DBE9BCE00D07A03 /* HelperAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperAssembly.swift; sourceTree = "<group>"; };
+		4F7464831DBE9C0A00D07A03 /* ApplicationAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationAssembly.swift; sourceTree = "<group>"; };
+		4F7464851DBE9C2C00D07A03 /* UserStoryAssemblyBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserStoryAssemblyBase.swift; sourceTree = "<group>"; };
+		4F7464871DBE9D7E00D07A03 /* AuthorizationUserStoryAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationUserStoryAssembly.swift; sourceTree = "<group>"; };
+		4F74648A1DBE9DF400D07A03 /* AuthorizationStory.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AuthorizationStory.storyboard; sourceTree = "<group>"; };
+		4F74648D1DBE9EE000D07A03 /* AuthorizationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
+		4F7464901DBEA4DB00D07A03 /* AuthorizationRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationRouter.swift; sourceTree = "<group>"; };
 		4F8D958E1DA68AC500657106 /* InitialStory.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = InitialStory.storyboard; sourceTree = "<group>"; };
 		4F8D95931DA68CB600657106 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		4F8D95971DA693D400657106 /* InitialViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewModel.swift; sourceTree = "<group>"; };
@@ -131,7 +145,7 @@
 		4F2CC6491DA53B01002526A2 /* PresentationLevel */ = {
 			isa = PBXGroup;
 			children = (
-				4F2CC64C1DA53B4E002526A2 /* Application */,
+				4F7464821DBE9BFF00D07A03 /* Application */,
 				4F2CC64B1DA53B4E002526A2 /* Helper */,
 				4F2CC64A1DA53B4E002526A2 /* UserStory */,
 			);
@@ -141,6 +155,8 @@
 		4F2CC64A1DA53B4E002526A2 /* UserStory */ = {
 			isa = PBXGroup;
 			children = (
+				4F7464851DBE9C2C00D07A03 /* UserStoryAssemblyBase.swift */,
+				4F7464871DBE9D7E00D07A03 /* AuthorizationUserStoryAssembly.swift */,
 				4F8D95991DA6944400657106 /* InitialUserStoryAssembly.swift */,
 			);
 			path = UserStory;
@@ -149,20 +165,49 @@
 		4F2CC64B1DA53B4E002526A2 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				4F7464801DBE9BCE00D07A03 /* HelperAssembly.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
 		};
-		4F2CC64C1DA53B4E002526A2 /* Application */ = {
+		4F7464821DBE9BFF00D07A03 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				4F7464831DBE9C0A00D07A03 /* ApplicationAssembly.swift */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		4F7464891DBE9DD800D07A03 /* AuthorizationStory */ = {
+			isa = PBXGroup;
+			children = (
+				4F74648F1DBEA4BC00D07A03 /* Router */,
+				4F74648C1DBE9E3B00D07A03 /* Views */,
+				4F74648A1DBE9DF400D07A03 /* AuthorizationStory.storyboard */,
+			);
+			path = AuthorizationStory;
+			sourceTree = "<group>";
+		};
+		4F74648C1DBE9E3B00D07A03 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4F74648D1DBE9EE000D07A03 /* AuthorizationViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4F74648F1DBEA4BC00D07A03 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				4F7464901DBEA4DB00D07A03 /* AuthorizationRouter.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 		4F8D958C1DA68A2F00657106 /* Stories */ = {
 			isa = PBXGroup;
 			children = (
+				4F7464891DBE9DD800D07A03 /* AuthorizationStory */,
 				4F8D958D1DA68A6100657106 /* InitialStory */,
 			);
 			path = Stories;
@@ -344,6 +389,7 @@
 			files = (
 				4F8D95901DA68AC500657106 /* InitialStory.storyboard in Resources */,
 				4FB77AA31DA44D1600C782B0 /* LaunchScreen.storyboard in Resources */,
+				4F74648B1DBE9DF400D07A03 /* AuthorizationStory.storyboard in Resources */,
 				4FB77AA01DA44D1600C782B0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,10 +425,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F74648E1DBE9EE000D07A03 /* AuthorizationViewController.swift in Sources */,
+				4F7464881DBE9D7E00D07A03 /* AuthorizationUserStoryAssembly.swift in Sources */,
 				4FB77A991DA44D1600C782B0 /* AppDelegate.swift in Sources */,
 				4F8D95941DA68CB600657106 /* InitialViewController.swift in Sources */,
+				4F7464911DBEA4DB00D07A03 /* AuthorizationRouter.swift in Sources */,
 				4F8D95981DA693D400657106 /* InitialViewModel.swift in Sources */,
 				4F8D959A1DA6944400657106 /* InitialUserStoryAssembly.swift in Sources */,
+				4F7464841DBE9C0A00D07A03 /* ApplicationAssembly.swift in Sources */,
+				4F7464861DBE9C2C00D07A03 /* UserStoryAssemblyBase.swift in Sources */,
+				4F7464811DBE9BCE00D07A03 /* HelperAssembly.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
