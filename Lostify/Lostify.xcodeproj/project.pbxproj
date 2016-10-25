@@ -7,14 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F2CC6451DA516DA002526A2 /* Typhoon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F2CC6441DA516DA002526A2 /* Typhoon.framework */; };
 		4F7464511DBE042200D07A03 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7464501DBE042200D07A03 /* Alamofire.framework */; };
 		4F7464531DBE22D300D07A03 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7464521DBE22D300D07A03 /* ReactiveSwift.framework */; };
-		4F7464551DBE22E000D07A03 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7464541DBE22E000D07A03 /* Result.framework */; };
-		4F7464571DBE22E500D07A03 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7464561DBE22E500D07A03 /* ReactiveCocoa.framework */; };
-		4F7464581DBE249B00D07A03 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7464501DBE042200D07A03 /* Alamofire.framework */; };
 		4F7464591DBE249B00D07A03 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7464501DBE042200D07A03 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4F74645B1DBE24AF00D07A03 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7464521DBE22D300D07A03 /* ReactiveSwift.framework */; };
 		4F74645C1DBE24AF00D07A03 /* ReactiveSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7464521DBE22D300D07A03 /* ReactiveSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4F74645D1DBE24C200D07A03 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7464541DBE22E000D07A03 /* Result.framework */; };
 		4F74645E1DBE24C200D07A03 /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7464541DBE22E000D07A03 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -27,6 +22,11 @@
 		4F74648B1DBE9DF400D07A03 /* AuthorizationStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F74648A1DBE9DF400D07A03 /* AuthorizationStory.storyboard */; };
 		4F74648E1DBE9EE000D07A03 /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F74648D1DBE9EE000D07A03 /* AuthorizationViewController.swift */; };
 		4F7464911DBEA4DB00D07A03 /* AuthorizationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7464901DBEA4DB00D07A03 /* AuthorizationRouter.swift */; };
+		4F7464A11DBFE61D00D07A03 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F74649F1DBFE60C00D07A03 /* Swinject.framework */; };
+		4F7464A21DBFE61D00D07A03 /* Swinject.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4F74649F1DBFE60C00D07A03 /* Swinject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4F7464A51DBFE62800D07A03 /* SwinjectStoryboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7464A31DBFE62200D07A03 /* SwinjectStoryboard.framework */; };
+		4F7464A61DBFE62800D07A03 /* SwinjectStoryboard.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7464A31DBFE62200D07A03 /* SwinjectStoryboard.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4F7464A81DBFE70600D07A03 /* SwinjectStoryboard+Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7464A71DBFE70600D07A03 /* SwinjectStoryboard+Setup.swift */; };
 		4F8D95901DA68AC500657106 /* InitialStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F8D958E1DA68AC500657106 /* InitialStory.storyboard */; };
 		4F8D95941DA68CB600657106 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D95931DA68CB600657106 /* InitialViewController.swift */; };
 		4F8D95981DA693D400657106 /* InitialViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D95971DA693D400657106 /* InitialViewModel.swift */; };
@@ -56,7 +56,9 @@
 			files = (
 				4F74645E1DBE24C200D07A03 /* Result.framework in Embed Frameworks */,
 				4F7464591DBE249B00D07A03 /* Alamofire.framework in Embed Frameworks */,
+				4F7464A61DBFE62800D07A03 /* SwinjectStoryboard.framework in Embed Frameworks */,
 				4F74645C1DBE24AF00D07A03 /* ReactiveSwift.framework in Embed Frameworks */,
+				4F7464A21DBFE61D00D07A03 /* Swinject.framework in Embed Frameworks */,
 				4F7464601DBE24D100D07A03 /* ReactiveCocoa.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -65,7 +67,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4F2CC6441DA516DA002526A2 /* Typhoon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Typhoon.framework; path = Carthage/Build/iOS/Typhoon.framework; sourceTree = "<group>"; };
 		4F7464501DBE042200D07A03 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		4F7464521DBE22D300D07A03 /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/iOS/ReactiveSwift.framework; sourceTree = "<group>"; };
 		4F7464541DBE22E000D07A03 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
@@ -77,6 +78,9 @@
 		4F74648A1DBE9DF400D07A03 /* AuthorizationStory.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AuthorizationStory.storyboard; sourceTree = "<group>"; };
 		4F74648D1DBE9EE000D07A03 /* AuthorizationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
 		4F7464901DBEA4DB00D07A03 /* AuthorizationRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationRouter.swift; sourceTree = "<group>"; };
+		4F74649F1DBFE60C00D07A03 /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = Carthage/Build/iOS/Swinject.framework; sourceTree = "<group>"; };
+		4F7464A31DBFE62200D07A03 /* SwinjectStoryboard.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwinjectStoryboard.framework; path = Carthage/Build/iOS/SwinjectStoryboard.framework; sourceTree = "<group>"; };
+		4F7464A71DBFE70600D07A03 /* SwinjectStoryboard+Setup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwinjectStoryboard+Setup.swift"; sourceTree = "<group>"; };
 		4F8D958E1DA68AC500657106 /* InitialStory.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = InitialStory.storyboard; sourceTree = "<group>"; };
 		4F8D95931DA68CB600657106 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		4F8D95971DA693D400657106 /* InitialViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewModel.swift; sourceTree = "<group>"; };
@@ -96,15 +100,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F2CC6451DA516DA002526A2 /* Typhoon.framework in Frameworks */,
-				4F74645B1DBE24AF00D07A03 /* ReactiveSwift.framework in Frameworks */,
-				4F7464581DBE249B00D07A03 /* Alamofire.framework in Frameworks */,
+				4F7464A51DBFE62800D07A03 /* SwinjectStoryboard.framework in Frameworks */,
 				4F74645D1DBE24C200D07A03 /* Result.framework in Frameworks */,
 				4F7464511DBE042200D07A03 /* Alamofire.framework in Frameworks */,
 				4F7464531DBE22D300D07A03 /* ReactiveSwift.framework in Frameworks */,
-				4F7464551DBE22E000D07A03 /* Result.framework in Frameworks */,
+				4F7464A11DBFE61D00D07A03 /* Swinject.framework in Frameworks */,
 				4F74645F1DBE24D100D07A03 /* ReactiveCocoa.framework in Frameworks */,
-				4F7464571DBE22E500D07A03 /* ReactiveCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,6 +159,7 @@
 				4F7464851DBE9C2C00D07A03 /* UserStoryAssemblyBase.swift */,
 				4F7464871DBE9D7E00D07A03 /* AuthorizationUserStoryAssembly.swift */,
 				4F8D95991DA6944400657106 /* InitialUserStoryAssembly.swift */,
+				4F7464A71DBFE70600D07A03 /* SwinjectStoryboard+Setup.swift */,
 			);
 			path = UserStory;
 			sourceTree = "<group>";
@@ -291,11 +293,12 @@
 		4FB77AB81DA4564E00C782B0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4F7464A31DBFE62200D07A03 /* SwinjectStoryboard.framework */,
+				4F74649F1DBFE60C00D07A03 /* Swinject.framework */,
 				4F7464561DBE22E500D07A03 /* ReactiveCocoa.framework */,
 				4F7464541DBE22E000D07A03 /* Result.framework */,
 				4F7464521DBE22D300D07A03 /* ReactiveSwift.framework */,
 				4F7464501DBE042200D07A03 /* Alamofire.framework */,
-				4F2CC6441DA516DA002526A2 /* Typhoon.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -426,6 +429,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F74648E1DBE9EE000D07A03 /* AuthorizationViewController.swift in Sources */,
+				4F7464A81DBFE70600D07A03 /* SwinjectStoryboard+Setup.swift in Sources */,
 				4F7464881DBE9D7E00D07A03 /* AuthorizationUserStoryAssembly.swift in Sources */,
 				4FB77A991DA44D1600C782B0 /* AppDelegate.swift in Sources */,
 				4F8D95941DA68CB600657106 /* InitialViewController.swift in Sources */,

@@ -1,4 +1,7 @@
-github "appsquickly/Typhoon"
+#github "appsquickly/Typhoon"
 github "Alamofire/Alamofire" ~> 4.0
 github "ReactiveCocoa/ReactiveSwift"
 github "ReactiveCocoa/ReactiveCocoa"
+github "Swinject/Swinject" "2.0.0-beta.2"
+# Use SwinjectStoryboard
+github "Swinject/SwinjectStoryboard" "1.0.0-beta.2"

@@ -8,10 +8,16 @@
 
 import Foundation
 
-@objc protocol AuthorizationRouter {
-    
+protocol AuthorizationRouter {
+    func navigateToMain()
 }
 
-class AuthorizationDefaultRouter: NSObject, AuthorizationRouter {
+extension AuthorizationRouter {
+    func navigateToMain() {
+        
+    }
+}
+
+struct AuthorizationDefaultRouter: AuthorizationRouter {
     
 }

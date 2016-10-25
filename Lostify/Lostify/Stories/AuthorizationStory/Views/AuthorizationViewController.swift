@@ -10,4 +10,13 @@ import UIKit
 
 class AuthorizationViewController: UIViewController {
     final var router: AuthorizationRouter!
+    
+    
+    
+    
+    
+    
+    @IBAction func onLogin(_ sender: AnyObject) {
+        router.navigateToMain()
+    }
 }
