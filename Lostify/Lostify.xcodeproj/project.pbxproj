@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F0C2B251DC1128D0041D007 /* MainStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0C2B241DC1128D0041D007 /* MainStory.storyboard */; };
+		4F0C2B2A1DC11A2A0041D007 /* LostAndFoundStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0C2B291DC11A2A0041D007 /* LostAndFoundStory.storyboard */; };
+		4F0C2B2C1DC11A380041D007 /* PostStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0C2B2B1DC11A380041D007 /* PostStory.storyboard */; };
+		4F0C2B2E1DC11A440041D007 /* AccountStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0C2B2D1DC11A440041D007 /* AccountStory.storyboard */; };
 		4F7464511DBE042200D07A03 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7464501DBE042200D07A03 /* Alamofire.framework */; };
 		4F7464531DBE22D300D07A03 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7464521DBE22D300D07A03 /* ReactiveSwift.framework */; };
 		4F7464591DBE249B00D07A03 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7464501DBE042200D07A03 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -67,6 +71,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4F0C2B241DC1128D0041D007 /* MainStory.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStory.storyboard; sourceTree = "<group>"; };
+		4F0C2B291DC11A2A0041D007 /* LostAndFoundStory.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LostAndFoundStory.storyboard; sourceTree = "<group>"; };
+		4F0C2B2B1DC11A380041D007 /* PostStory.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PostStory.storyboard; sourceTree = "<group>"; };
+		4F0C2B2D1DC11A440041D007 /* AccountStory.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AccountStory.storyboard; sourceTree = "<group>"; };
 		4F7464501DBE042200D07A03 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		4F7464521DBE22D300D07A03 /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/iOS/ReactiveSwift.framework; sourceTree = "<group>"; };
 		4F7464541DBE22E000D07A03 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
@@ -119,6 +127,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F0C2B231DC1125A0041D007 /* MainStory */ = {
+			isa = PBXGroup;
+			children = (
+				4F0C2B241DC1128D0041D007 /* MainStory.storyboard */,
+			);
+			path = MainStory;
+			sourceTree = "<group>";
+		};
+		4F0C2B261DC119D50041D007 /* LostAndFoundStory */ = {
+			isa = PBXGroup;
+			children = (
+				4F0C2B291DC11A2A0041D007 /* LostAndFoundStory.storyboard */,
+			);
+			path = LostAndFoundStory;
+			sourceTree = "<group>";
+		};
+		4F0C2B271DC119EB0041D007 /* PostStory */ = {
+			isa = PBXGroup;
+			children = (
+				4F0C2B2B1DC11A380041D007 /* PostStory.storyboard */,
+			);
+			path = PostStory;
+			sourceTree = "<group>";
+		};
+		4F0C2B281DC11A070041D007 /* AccountStory */ = {
+			isa = PBXGroup;
+			children = (
+				4F0C2B2D1DC11A440041D007 /* AccountStory.storyboard */,
+			);
+			path = AccountStory;
+			sourceTree = "<group>";
+		};
 		4F2CC6461DA53372002526A2 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +250,10 @@
 			isa = PBXGroup;
 			children = (
 				4F7464891DBE9DD800D07A03 /* AuthorizationStory */,
+				4F0C2B231DC1125A0041D007 /* MainStory */,
+				4F0C2B261DC119D50041D007 /* LostAndFoundStory */,
+				4F0C2B271DC119EB0041D007 /* PostStory */,
+				4F0C2B281DC11A070041D007 /* AccountStory */,
 				4F8D958D1DA68A6100657106 /* InitialStory */,
 			);
 			path = Stories;
@@ -390,7 +434,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F0C2B251DC1128D0041D007 /* MainStory.storyboard in Resources */,
+				4F0C2B2A1DC11A2A0041D007 /* LostAndFoundStory.storyboard in Resources */,
 				4F8D95901DA68AC500657106 /* InitialStory.storyboard in Resources */,
+				4F0C2B2C1DC11A380041D007 /* PostStory.storyboard in Resources */,
+				4F0C2B2E1DC11A440041D007 /* AccountStory.storyboard in Resources */,
 				4FB77AA31DA44D1600C782B0 /* LaunchScreen.storyboard in Resources */,
 				4F74648B1DBE9DF400D07A03 /* AuthorizationStory.storyboard in Resources */,
 				4FB77AA01DA44D1600C782B0 /* Assets.xcassets in Resources */,
