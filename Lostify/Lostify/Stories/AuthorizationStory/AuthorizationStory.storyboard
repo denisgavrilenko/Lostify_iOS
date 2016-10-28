@@ -31,7 +31,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="orF-e0-J3H" firstAttribute="top" secondItem="T8E-Pz-evU" secondAttribute="bottom" id="613-60-myC"/>
+                            <constraint firstItem="orF-e0-J3H" firstAttribute="centerY" secondItem="Ynm-8L-WYr" secondAttribute="centerY" id="5eD-aP-ymp"/>
                             <constraint firstItem="orF-e0-J3H" firstAttribute="centerX" secondItem="Ynm-8L-WYr" secondAttribute="centerX" id="BtZ-xN-lEd"/>
                             <constraint firstItem="CdA-kq-qXw" firstAttribute="top" secondItem="Sde-DX-RYb" secondAttribute="bottom" constant="100" id="Wya-uz-4p9"/>
                             <constraint firstItem="Sde-DX-RYb" firstAttribute="centerX" secondItem="Ynm-8L-WYr" secondAttribute="centerX" id="ti5-iN-Jo1"/>

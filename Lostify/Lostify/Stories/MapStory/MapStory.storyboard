@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11521.1" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BgZ-mK-okO">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11517.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Map-->
+        <scene sceneID="gHi-sw-DfJ">
+            <objects>
+                <navigationController title="Map" id="BgZ-mK-okO" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="c8k-lP-pnW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Ruk-Pp-9z5" kind="relationship" relationship="rootViewController" id="I4R-lI-cAR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sxa-pD-RAe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1628" y="464"/>
+        </scene>
+        <!--Google Maps-->
+        <scene sceneID="XjE-eb-9ST">
+            <objects>
+                <viewController id="Ruk-Pp-9z5" customClass="MapViewController" customModule="Lostify" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SjW-2i-6vt"/>
+                        <viewControllerLayoutGuide type="bottom" id="RnT-Na-0p6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cbC-lr-lCu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Google Maps" id="3GW-sF-I22"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hj9-1j-CKH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-660" y="464"/>
+        </scene>
+    </scenes>
+</document>
