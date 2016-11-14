@@ -36,10 +36,25 @@
 		4F74648E1DBE9EE000D07A03 /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F74648D1DBE9EE000D07A03 /* AuthorizationViewController.swift */; };
 		4F7464911DBEA4DB00D07A03 /* AuthorizationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7464901DBEA4DB00D07A03 /* AuthorizationRouter.swift */; };
 		4F7464A81DBFE70600D07A03 /* SwinjectStoryboard+Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7464A71DBFE70600D07A03 /* SwinjectStoryboard+Setup.swift */; };
+		4F7A41ED1DD210B2009AC188 /* iPhone 7 Copy 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F7A41E21DD210B2009AC188 /* iPhone 7 Copy 4.png */; };
+		4F7A41EE1DD210B2009AC188 /* iPhone 7 Copy 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F7A41E31DD210B2009AC188 /* iPhone 7 Copy 5.png */; };
+		4F7A41EF1DD210B2009AC188 /* Active Lost Cards Copy 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F7A41E41DD210B2009AC188 /* Active Lost Cards Copy 2.png */; };
+		4F7A41F01DD210B2009AC188 /* Active Lost Cards Copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F7A41E51DD210B2009AC188 /* Active Lost Cards Copy.png */; };
+		4F7A41F11DD210B2009AC188 /* Active Lost Cards.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F7A41E61DD210B2009AC188 /* Active Lost Cards.png */; };
+		4F7A41F21DD210B2009AC188 /* Default Screen Copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F7A41E71DD210B2009AC188 /* Default Screen Copy.png */; };
+		4F7A41F31DD210B2009AC188 /* Default Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F7A41E81DD210B2009AC188 /* Default Screen.png */; };
+		4F7A41F41DD210B2009AC188 /* iPhone 7 Copy 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F7A41E91DD210B2009AC188 /* iPhone 7 Copy 2.png */; };
+		4F7A41F51DD210B2009AC188 /* iPhone 7 Copy 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F7A41EA1DD210B2009AC188 /* iPhone 7 Copy 3.png */; };
+		4F7A41F61DD210B2009AC188 /* iPhone 7 Copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F7A41EB1DD210B2009AC188 /* iPhone 7 Copy.png */; };
+		4F7A41F71DD210B2009AC188 /* iPhone 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F7A41EC1DD210B2009AC188 /* iPhone 7.png */; };
+		4F7A41FA1DD2232D009AC188 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7A41F81DD2231D009AC188 /* SnapKit.framework */; };
+		4F7A41FB1DD2232D009AC188 /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7A41F81DD2231D009AC188 /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4F7A41FD1DD24A4A009AC188 /* Resources.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F7A41FC1DD24A4A009AC188 /* Resources.xcassets */; };
 		4F8D95901DA68AC500657106 /* InitialStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F8D958E1DA68AC500657106 /* InitialStory.storyboard */; };
 		4F8D95941DA68CB600657106 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D95931DA68CB600657106 /* InitialViewController.swift */; };
 		4F8D95981DA693D400657106 /* InitialViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D95971DA693D400657106 /* InitialViewModel.swift */; };
 		4F8D959A1DA6944400657106 /* InitialUserStoryAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D95991DA6944400657106 /* InitialUserStoryAssembly.swift */; };
+		4FA989ED1DD7BACC0071CA45 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA989EC1DD7BACC0071CA45 /* ReusableView.swift */; };
 		4FB77A991DA44D1600C782B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB77A981DA44D1600C782B0 /* AppDelegate.swift */; };
 		4FB77AA01DA44D1600C782B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FB77A9F1DA44D1600C782B0 /* Assets.xcassets */; };
 		4FB77AA31DA44D1600C782B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FB77AA11DA44D1600C782B0 /* LaunchScreen.storyboard */; };
@@ -63,6 +78,9 @@
 		4FDB424B1DC3F323008D95E3 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDB42481DC3F323008D95E3 /* Alamofire.framework */; };
 		4FDB424C1DC3F323008D95E3 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDB42491DC3F323008D95E3 /* Swinject.framework */; };
 		4FDB424D1DC3F323008D95E3 /* SwinjectStoryboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDB424A1DC3F323008D95E3 /* SwinjectStoryboard.framework */; };
+		4FE52E0E1DD3276B00C8E695 /* ReusableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE52E0D1DD3276B00C8E695 /* ReusableScrollView.swift */; };
+		4FE52E181DD4554900C8E695 /* ItemCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE52E161DD4554900C8E695 /* ItemCardViewController.swift */; };
+		4FE52E191DD4554900C8E695 /* ItemCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FE52E171DD4554900C8E695 /* ItemCardViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +103,7 @@
 				4F381A251DC3F77C00A8F153 /* Alamofire.framework in Embed Frameworks */,
 				4F381A271DC3F79E00A8F153 /* Swinject.framework in Embed Frameworks */,
 				4F381A2D1DC3F84100A8F153 /* ReactiveSwift.framework in Embed Frameworks */,
+				4F7A41FB1DD2232D009AC188 /* SnapKit.framework in Embed Frameworks */,
 				4F381A2F1DC3F84700A8F153 /* Result.framework in Embed Frameworks */,
 				4F381A291DC3F81C00A8F153 /* SwinjectStoryboard.framework in Embed Frameworks */,
 				4F381A2B1DC3F83200A8F153 /* ReactiveCocoa.framework in Embed Frameworks */,
@@ -113,10 +132,24 @@
 		4F74648D1DBE9EE000D07A03 /* AuthorizationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
 		4F7464901DBEA4DB00D07A03 /* AuthorizationRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationRouter.swift; sourceTree = "<group>"; };
 		4F7464A71DBFE70600D07A03 /* SwinjectStoryboard+Setup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwinjectStoryboard+Setup.swift"; sourceTree = "<group>"; };
+		4F7A41E21DD210B2009AC188 /* iPhone 7 Copy 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 7 Copy 4.png"; sourceTree = "<group>"; };
+		4F7A41E31DD210B2009AC188 /* iPhone 7 Copy 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 7 Copy 5.png"; sourceTree = "<group>"; };
+		4F7A41E41DD210B2009AC188 /* Active Lost Cards Copy 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Active Lost Cards Copy 2.png"; sourceTree = "<group>"; };
+		4F7A41E51DD210B2009AC188 /* Active Lost Cards Copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Active Lost Cards Copy.png"; sourceTree = "<group>"; };
+		4F7A41E61DD210B2009AC188 /* Active Lost Cards.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Active Lost Cards.png"; sourceTree = "<group>"; };
+		4F7A41E71DD210B2009AC188 /* Default Screen Copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default Screen Copy.png"; sourceTree = "<group>"; };
+		4F7A41E81DD210B2009AC188 /* Default Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default Screen.png"; sourceTree = "<group>"; };
+		4F7A41E91DD210B2009AC188 /* iPhone 7 Copy 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 7 Copy 2.png"; sourceTree = "<group>"; };
+		4F7A41EA1DD210B2009AC188 /* iPhone 7 Copy 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 7 Copy 3.png"; sourceTree = "<group>"; };
+		4F7A41EB1DD210B2009AC188 /* iPhone 7 Copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 7 Copy.png"; sourceTree = "<group>"; };
+		4F7A41EC1DD210B2009AC188 /* iPhone 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 7.png"; sourceTree = "<group>"; };
+		4F7A41F81DD2231D009AC188 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		4F7A41FC1DD24A4A009AC188 /* Resources.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Resources.xcassets; sourceTree = "<group>"; };
 		4F8D958E1DA68AC500657106 /* InitialStory.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = InitialStory.storyboard; sourceTree = "<group>"; };
 		4F8D95931DA68CB600657106 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		4F8D95971DA693D400657106 /* InitialViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewModel.swift; sourceTree = "<group>"; };
 		4F8D95991DA6944400657106 /* InitialUserStoryAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialUserStoryAssembly.swift; sourceTree = "<group>"; };
+		4FA989EC1DD7BACC0071CA45 /* ReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
 		4FB77A951DA44D1600C782B0 /* Lostify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lostify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FB77A981DA44D1600C782B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FB77A9F1DA44D1600C782B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -144,6 +177,9 @@
 		4FDB42481DC3F323008D95E3 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		4FDB42491DC3F323008D95E3 /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = Carthage/Build/iOS/Swinject.framework; sourceTree = "<group>"; };
 		4FDB424A1DC3F323008D95E3 /* SwinjectStoryboard.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwinjectStoryboard.framework; path = Carthage/Build/iOS/SwinjectStoryboard.framework; sourceTree = "<group>"; };
+		4FE52E0D1DD3276B00C8E695 /* ReusableScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableScrollView.swift; sourceTree = "<group>"; };
+		4FE52E161DD4554900C8E695 /* ItemCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCardViewController.swift; sourceTree = "<group>"; };
+		4FE52E171DD4554900C8E695 /* ItemCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemCardViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +190,7 @@
 				4FDB424B1DC3F323008D95E3 /* Alamofire.framework in Frameworks */,
 				4FDB424C1DC3F323008D95E3 /* Swinject.framework in Frameworks */,
 				4FDB424D1DC3F323008D95E3 /* SwinjectStoryboard.framework in Frameworks */,
+				4F7A41FA1DD2232D009AC188 /* SnapKit.framework in Frameworks */,
 				4FD503A61DC38AFC005EB43F /* CoreData.framework in Frameworks */,
 				4FD503A71DC38AFC005EB43F /* CoreGraphics.framework in Frameworks */,
 				4F381A2C1DC3F84100A8F153 /* ReactiveSwift.framework in Frameworks */,
@@ -226,7 +263,9 @@
 		4F1A66EA1DC388E400BF7FD8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4F7A41E11DD21026009AC188 /* Screens */,
 				4F1A66EB1DC388E400BF7FD8 /* GoogleMaps */,
+				4F7A41FC1DD24A4A009AC188 /* Resources.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -326,6 +365,49 @@
 			path = Router;
 			sourceTree = "<group>";
 		};
+		4F7A41E11DD21026009AC188 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				4F7A41E21DD210B2009AC188 /* iPhone 7 Copy 4.png */,
+				4F7A41E31DD210B2009AC188 /* iPhone 7 Copy 5.png */,
+				4F7A41E41DD210B2009AC188 /* Active Lost Cards Copy 2.png */,
+				4F7A41E51DD210B2009AC188 /* Active Lost Cards Copy.png */,
+				4F7A41E61DD210B2009AC188 /* Active Lost Cards.png */,
+				4F7A41E71DD210B2009AC188 /* Default Screen Copy.png */,
+				4F7A41E81DD210B2009AC188 /* Default Screen.png */,
+				4F7A41E91DD210B2009AC188 /* iPhone 7 Copy 2.png */,
+				4F7A41EA1DD210B2009AC188 /* iPhone 7 Copy 3.png */,
+				4F7A41EB1DD210B2009AC188 /* iPhone 7 Copy.png */,
+				4F7A41EC1DD210B2009AC188 /* iPhone 7.png */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		4F7A41FE1DD24B23009AC188 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				4F7A41FF1DD24B2F009AC188 /* UI */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		4F7A41FF1DD24B2F009AC188 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				4F7A42001DD2541D009AC188 /* InfiniteView */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		4F7A42001DD2541D009AC188 /* InfiniteView */ = {
+			isa = PBXGroup;
+			children = (
+				4FE52E0D1DD3276B00C8E695 /* ReusableScrollView.swift */,
+				4FA989EC1DD7BACC0071CA45 /* ReusableView.swift */,
+			);
+			path = InfiniteView;
+			sourceTree = "<group>";
+		};
 		4F8D958C1DA68A2F00657106 /* Stories */ = {
 			isa = PBXGroup;
 			children = (
@@ -396,6 +478,7 @@
 		4FB77A971DA44D1600C782B0 /* Lostify */ = {
 			isa = PBXGroup;
 			children = (
+				4F7A41FE1DD24B23009AC188 /* Modules */,
 				4F1A66EA1DC388E400BF7FD8 /* Resources */,
 				4F8D958C1DA68A2F00657106 /* Stories */,
 				4F2CC6461DA53372002526A2 /* Dependencies */,
@@ -419,6 +502,7 @@
 		4FB77AB81DA4564E00C782B0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4F7A41F81DD2231D009AC188 /* SnapKit.framework */,
 				4FDB42481DC3F323008D95E3 /* Alamofire.framework */,
 				4FDB42491DC3F323008D95E3 /* Swinject.framework */,
 				4FDB424A1DC3F323008D95E3 /* SwinjectStoryboard.framework */,
@@ -457,9 +541,19 @@
 		4FD503B51DC38F3F005EB43F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4FE52E151DD4553100C8E695 /* ItemCardView */,
 				4FD503B61DC38F4F005EB43F /* MapViewController.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		4FE52E151DD4553100C8E695 /* ItemCardView */ = {
+			isa = PBXGroup;
+			children = (
+				4FE52E161DD4554900C8E695 /* ItemCardViewController.swift */,
+				4FE52E171DD4554900C8E695 /* ItemCardViewController.xib */,
+			);
+			path = ItemCardView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -549,16 +643,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F7A41EE1DD210B2009AC188 /* iPhone 7 Copy 5.png in Resources */,
+				4F7A41FD1DD24A4A009AC188 /* Resources.xcassets in Resources */,
+				4F7A41F01DD210B2009AC188 /* Active Lost Cards Copy.png in Resources */,
 				4FD503971DC38A84005EB43F /* GoogleMaps.bundle in Resources */,
+				4F7A41F41DD210B2009AC188 /* iPhone 7 Copy 2.png in Resources */,
+				4FE52E191DD4554900C8E695 /* ItemCardViewController.xib in Resources */,
+				4F7A41EF1DD210B2009AC188 /* Active Lost Cards Copy 2.png in Resources */,
+				4F7A41F71DD210B2009AC188 /* iPhone 7.png in Resources */,
 				4F0C2B251DC1128D0041D007 /* MainStory.storyboard in Resources */,
 				4F0C2B2A1DC11A2A0041D007 /* LostAndFoundStory.storyboard in Resources */,
 				4FD503B41DC38EEE005EB43F /* MapStory.storyboard in Resources */,
 				4F8D95901DA68AC500657106 /* InitialStory.storyboard in Resources */,
+				4F7A41F51DD210B2009AC188 /* iPhone 7 Copy 3.png in Resources */,
 				4F0C2B2C1DC11A380041D007 /* PostStory.storyboard in Resources */,
+				4F7A41F31DD210B2009AC188 /* Default Screen.png in Resources */,
+				4F7A41ED1DD210B2009AC188 /* iPhone 7 Copy 4.png in Resources */,
+				4F7A41F21DD210B2009AC188 /* Default Screen Copy.png in Resources */,
 				4F0C2B2E1DC11A440041D007 /* AccountStory.storyboard in Resources */,
 				4FB77AA31DA44D1600C782B0 /* LaunchScreen.storyboard in Resources */,
 				4F74648B1DBE9DF400D07A03 /* AuthorizationStory.storyboard in Resources */,
+				4F7A41F61DD210B2009AC188 /* iPhone 7 Copy.png in Resources */,
 				4FB77AA01DA44D1600C782B0 /* Assets.xcassets in Resources */,
+				4F7A41F11DD210B2009AC188 /* Active Lost Cards.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -599,10 +706,13 @@
 				4F8D95941DA68CB600657106 /* InitialViewController.swift in Sources */,
 				4F7464911DBEA4DB00D07A03 /* AuthorizationRouter.swift in Sources */,
 				4F8D95981DA693D400657106 /* InitialViewModel.swift in Sources */,
+				4FE52E0E1DD3276B00C8E695 /* ReusableScrollView.swift in Sources */,
 				4FD503B71DC38F4F005EB43F /* MapViewController.swift in Sources */,
 				4F8D959A1DA6944400657106 /* InitialUserStoryAssembly.swift in Sources */,
+				4FA989ED1DD7BACC0071CA45 /* ReusableView.swift in Sources */,
 				4F7464841DBE9C0A00D07A03 /* ApplicationAssembly.swift in Sources */,
 				4F7464861DBE9C2C00D07A03 /* UserStoryAssemblyBase.swift in Sources */,
+				4FE52E181DD4554900C8E695 /* ItemCardViewController.swift in Sources */,
 				4F7464811DBE9BCE00D07A03 /* HelperAssembly.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

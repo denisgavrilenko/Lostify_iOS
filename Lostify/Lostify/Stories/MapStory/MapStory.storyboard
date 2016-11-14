@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11521.1" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BgZ-mK-okO">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11521.1" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BgZ-mK-okO">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11517.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -9,7 +10,7 @@
         <scene sceneID="gHi-sw-DfJ">
             <objects>
                 <navigationController title="Map" id="BgZ-mK-okO" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="c8k-lP-pnW">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="c8k-lP-pnW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -32,13 +33,54 @@
                     <view key="view" contentMode="scaleToFill" id="cbC-lr-lCu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="omZ-vc-kFL">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ndy-Xj-GKr" customClass="ReusableScrollView" customModule="Lostify" customModuleProvider="target">
+                                <connections>
+                                    <outlet property="layoutView" destination="cbC-lr-lCu" id="VVF-Vz-MYO"/>
+                                </connections>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="omZ-vc-kFL" firstAttribute="leading" secondItem="cbC-lr-lCu" secondAttribute="leading" id="3sk-cF-oWe"/>
+                            <constraint firstItem="RnT-Na-0p6" firstAttribute="top" secondItem="omZ-vc-kFL" secondAttribute="bottom" id="4Li-5v-5dm"/>
+                            <constraint firstItem="ndy-Xj-GKr" firstAttribute="leading" secondItem="cbC-lr-lCu" secondAttribute="leading" constant="50" id="HX0-No-sjm"/>
+                            <constraint firstItem="RnT-Na-0p6" firstAttribute="top" secondItem="ndy-Xj-GKr" secondAttribute="bottom" id="KGG-so-SjI"/>
+                            <constraint firstAttribute="trailing" secondItem="omZ-vc-kFL" secondAttribute="trailing" id="WO7-TM-Isu"/>
+                            <constraint firstItem="ndy-Xj-GKr" firstAttribute="height" secondItem="cbC-lr-lCu" secondAttribute="height" multiplier="0.5" id="jLM-YE-gEB"/>
+                            <constraint firstItem="omZ-vc-kFL" firstAttribute="top" secondItem="SjW-2i-6vt" secondAttribute="bottom" id="o0x-7Y-Q1Y"/>
+                            <constraint firstAttribute="trailing" secondItem="ndy-Xj-GKr" secondAttribute="trailing" constant="50" id="wQH-3p-B2W"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Google Maps" id="3GW-sF-I22"/>
+                    <connections>
+                        <outlet property="cardsView" destination="ndy-Xj-GKr" id="4KM-mY-it9"/>
+                        <outlet property="mapLayoutView" destination="omZ-vc-kFL" id="xSU-ss-jlC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hj9-1j-CKH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-660" y="464"/>
+            <point key="canvasLocation" x="-660" y="463.71814092953525"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="nbw-TI-lud">
+            <objects>
+                <viewController id="roT-WD-Dr3" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CPf-1X-fQb"/>
+                        <viewControllerLayoutGuide type="bottom" id="IBR-g8-UVM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="S8j-eW-Dm2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lw6-Ra-spM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
         </scene>
     </scenes>
 </document>
