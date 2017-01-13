@@ -78,6 +78,15 @@
 		4FDB424B1DC3F323008D95E3 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDB42481DC3F323008D95E3 /* Alamofire.framework */; };
 		4FDB424C1DC3F323008D95E3 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDB42491DC3F323008D95E3 /* Swinject.framework */; };
 		4FDB424D1DC3F323008D95E3 /* SwinjectStoryboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDB424A1DC3F323008D95E3 /* SwinjectStoryboard.framework */; };
+		4FE086471E294C9A00758B98 /* AlamofireImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE0863C1E294C9A00758B98 /* AlamofireImplementations.swift */; };
+		4FE086481E294C9A00758B98 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE0863D1E294C9A00758B98 /* APIHelper.swift */; };
+		4FE086491E294C9A00758B98 /* CountryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE0863F1E294C9A00758B98 /* CountryAPI.swift */; };
+		4FE0864A1E294C9A00758B98 /* ItemAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE086401E294C9A00758B98 /* ItemAPI.swift */; };
+		4FE0864B1E294C9A00758B98 /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE086411E294C9A00758B98 /* UserAPI.swift */; };
+		4FE0864C1E294C9A00758B98 /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE086421E294C9A00758B98 /* APIs.swift */; };
+		4FE0864D1E294C9A00758B98 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE086431E294C9A00758B98 /* Extensions.swift */; };
+		4FE0864E1E294C9A00758B98 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE086451E294C9A00758B98 /* Country.swift */; };
+		4FE0864F1E294C9A00758B98 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE086461E294C9A00758B98 /* Models.swift */; };
 		4FE52E0E1DD3276B00C8E695 /* ReusableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE52E0D1DD3276B00C8E695 /* ReusableScrollView.swift */; };
 		4FE52E181DD4554900C8E695 /* ItemCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE52E161DD4554900C8E695 /* ItemCardViewController.swift */; };
 		4FE52E191DD4554900C8E695 /* ItemCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FE52E171DD4554900C8E695 /* ItemCardViewController.xib */; };
@@ -177,6 +186,15 @@
 		4FDB42481DC3F323008D95E3 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		4FDB42491DC3F323008D95E3 /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = Carthage/Build/iOS/Swinject.framework; sourceTree = "<group>"; };
 		4FDB424A1DC3F323008D95E3 /* SwinjectStoryboard.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwinjectStoryboard.framework; path = Carthage/Build/iOS/SwinjectStoryboard.framework; sourceTree = "<group>"; };
+		4FE0863C1E294C9A00758B98 /* AlamofireImplementations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireImplementations.swift; sourceTree = "<group>"; };
+		4FE0863D1E294C9A00758B98 /* APIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		4FE0863F1E294C9A00758B98 /* CountryAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryAPI.swift; sourceTree = "<group>"; };
+		4FE086401E294C9A00758B98 /* ItemAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemAPI.swift; sourceTree = "<group>"; };
+		4FE086411E294C9A00758B98 /* UserAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
+		4FE086421E294C9A00758B98 /* APIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIs.swift; sourceTree = "<group>"; };
+		4FE086431E294C9A00758B98 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4FE086451E294C9A00758B98 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		4FE086461E294C9A00758B98 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		4FE52E0D1DD3276B00C8E695 /* ReusableScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableScrollView.swift; sourceTree = "<group>"; };
 		4FE52E161DD4554900C8E695 /* ItemCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCardViewController.swift; sourceTree = "<group>"; };
 		4FE52E171DD4554900C8E695 /* ItemCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemCardViewController.xib; sourceTree = "<group>"; };
@@ -459,6 +477,7 @@
 		4FB77A8C1DA44D1500C782B0 = {
 			isa = PBXGroup;
 			children = (
+				4FE0863B1E294C9A00758B98 /* Swaggers */,
 				4FB77A971DA44D1600C782B0 /* Lostify */,
 				4FB77AAC1DA44D1600C782B0 /* LostifyTests */,
 				4FB77A961DA44D1600C782B0 /* Products */,
@@ -545,6 +564,38 @@
 				4FD503B61DC38F4F005EB43F /* MapViewController.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		4FE0863B1E294C9A00758B98 /* Swaggers */ = {
+			isa = PBXGroup;
+			children = (
+				4FE0863C1E294C9A00758B98 /* AlamofireImplementations.swift */,
+				4FE0863D1E294C9A00758B98 /* APIHelper.swift */,
+				4FE0863E1E294C9A00758B98 /* APIs */,
+				4FE086421E294C9A00758B98 /* APIs.swift */,
+				4FE086431E294C9A00758B98 /* Extensions.swift */,
+				4FE086441E294C9A00758B98 /* Models */,
+				4FE086461E294C9A00758B98 /* Models.swift */,
+			);
+			path = Swaggers;
+			sourceTree = "<group>";
+		};
+		4FE0863E1E294C9A00758B98 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				4FE0863F1E294C9A00758B98 /* CountryAPI.swift */,
+				4FE086401E294C9A00758B98 /* ItemAPI.swift */,
+				4FE086411E294C9A00758B98 /* UserAPI.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		4FE086441E294C9A00758B98 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4FE086451E294C9A00758B98 /* Country.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		4FE52E151DD4553100C8E695 /* ItemCardView */ = {
@@ -700,16 +751,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F74648E1DBE9EE000D07A03 /* AuthorizationViewController.swift in Sources */,
+				4FE0864C1E294C9A00758B98 /* APIs.swift in Sources */,
 				4F7464A81DBFE70600D07A03 /* SwinjectStoryboard+Setup.swift in Sources */,
+				4FE0864F1E294C9A00758B98 /* Models.swift in Sources */,
+				4FE086471E294C9A00758B98 /* AlamofireImplementations.swift in Sources */,
+				4FE086491E294C9A00758B98 /* CountryAPI.swift in Sources */,
 				4F7464881DBE9D7E00D07A03 /* AuthorizationUserStoryAssembly.swift in Sources */,
 				4FB77A991DA44D1600C782B0 /* AppDelegate.swift in Sources */,
 				4F8D95941DA68CB600657106 /* InitialViewController.swift in Sources */,
 				4F7464911DBEA4DB00D07A03 /* AuthorizationRouter.swift in Sources */,
+				4FE0864E1E294C9A00758B98 /* Country.swift in Sources */,
+				4FE0864D1E294C9A00758B98 /* Extensions.swift in Sources */,
 				4F8D95981DA693D400657106 /* InitialViewModel.swift in Sources */,
+				4FE086481E294C9A00758B98 /* APIHelper.swift in Sources */,
 				4FE52E0E1DD3276B00C8E695 /* ReusableScrollView.swift in Sources */,
 				4FD503B71DC38F4F005EB43F /* MapViewController.swift in Sources */,
 				4F8D959A1DA6944400657106 /* InitialUserStoryAssembly.swift in Sources */,
+				4FE0864B1E294C9A00758B98 /* UserAPI.swift in Sources */,
 				4FA989ED1DD7BACC0071CA45 /* ReusableView.swift in Sources */,
+				4FE0864A1E294C9A00758B98 /* ItemAPI.swift in Sources */,
 				4F7464841DBE9C0A00D07A03 /* ApplicationAssembly.swift in Sources */,
 				4F7464861DBE9C2C00D07A03 /* UserStoryAssemblyBase.swift in Sources */,
 				4FE52E181DD4554900C8E695 /* ItemCardViewController.swift in Sources */,

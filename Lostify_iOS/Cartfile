@@ -1,0 +1,10 @@
+#github "appsquickly/Typhoon"
+github "Alamofire/Alamofire" ~> 4.0
+github "ReactiveCocoa/ReactiveSwift" 
+github "ReactiveCocoa/ReactiveCocoa" "5.0.0-alpha.3"
+# Dependency Injection Container
+github "Swinject/Swinject" "2.0.0-beta.2"
+# Use SwinjectStoryboard
+github "Swinject/SwinjectStoryboard" "1.0.0-beta.2"
+# Constaints Swift Lib
+github "SnapKit/SnapKit" ~> 3.0.2
