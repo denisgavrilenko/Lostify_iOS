@@ -25,7 +25,7 @@ open class UserAPI: APIBase {
      - parameter id: (path)  
      - parameter completion: completion handler to receive the data and the error objects
      */
-    open class func apiUserByIdGet(id: Int32, completion: @escaping ((_ data: String?,_ error: Error?) -> Void)) {
+    open class func apiUserByIdGet(id: Int32, completion: @escaping ((_ data: User?,_ error: Error?) -> Void)) {
         apiUserByIdGetWithRequestBuilder(id: id).execute { (response, error) -> Void in
             completion(response?.body, error);
         }
@@ -35,13 +35,25 @@ open class UserAPI: APIBase {
     /**
      Get user by id
      - GET /api/User/{id}
-     - examples: [{contentType=application/json, example="aeiou"}]
+     - examples: [{contentType=application/json, example={
+  "firstName" : "aeiou",
+  "lastName" : "aeiou",
+  "phoneNumber" : "aeiou",
+  "socialNetworks" : [ {
+    "socialUserId" : "aeiou",
+    "isMaster" : true,
+    "socialType" : "aeiou"
+  } ],
+  "userId" : 123,
+  "email" : "aeiou",
+  "countryId" : 123
+}}]
      
      - parameter id: (path)  
 
-     - returns: RequestBuilder<String> 
+     - returns: RequestBuilder<User> 
      */
-    open class func apiUserByIdGetWithRequestBuilder(id: Int32) -> RequestBuilder<String> {
+    open class func apiUserByIdGetWithRequestBuilder(id: Int32) -> RequestBuilder<User> {
         var path = "/api/User/{id}"
         path = path.replacingOccurrences(of: "{id}", with: "\(id)", options: .literal, range: nil)
         let URLString = SwaggerClientAPI.basePath + path
@@ -52,7 +64,7 @@ open class UserAPI: APIBase {
 
         let convertedParameters = APIHelper.convertBoolToString(parameters)
 
-        let requestBuilder: RequestBuilder<String>.Type = SwaggerClientAPI.requestBuilderFactory.getBuilder()
+        let requestBuilder: RequestBuilder<User>.Type = SwaggerClientAPI.requestBuilderFactory.getBuilder()
 
         return requestBuilder.init(method: "GET", URLString: URLString, parameters: convertedParameters, isBody: false)
     }
@@ -97,28 +109,28 @@ open class UserAPI: APIBase {
     }
 
     /**
-     Create user
+     Register user
      
      - parameter value: (body)  (optional)
      - parameter completion: completion handler to receive the data and the error objects
      */
-    open class func apiUserPost(value: String? = nil, completion: @escaping ((_ error: Error?) -> Void)) {
-        apiUserPostWithRequestBuilder(value: value).execute { (response, error) -> Void in
+    open class func apiUserRegisterPost(value: User? = nil, completion: @escaping ((_ error: Error?) -> Void)) {
+        apiUserRegisterPostWithRequestBuilder(value: value).execute { (response, error) -> Void in
             completion(error);
         }
     }
 
 
     /**
-     Create user
-     - POST /api/User
+     Register user
+     - POST /api/User/register
      
      - parameter value: (body)  (optional)
 
      - returns: RequestBuilder<Void> 
      */
-    open class func apiUserPostWithRequestBuilder(value: String? = nil) -> RequestBuilder<Void> {
-        let path = "/api/User"
+    open class func apiUserRegisterPostWithRequestBuilder(value: User? = nil) -> RequestBuilder<Void> {
+        let path = "/api/User/register"
         let URLString = SwaggerClientAPI.basePath + path
         let parameters = value?.encodeToJSON() as? [String:AnyObject]
 

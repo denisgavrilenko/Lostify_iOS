@@ -8,3 +8,5 @@ github "Swinject/Swinject" "2.0.0-beta.2"
 github "Swinject/SwinjectStoryboard" "1.0.0-beta.2"
 # Constaints Swift Lib
 github "SnapKit/SnapKit" ~> 3.0.2
+
+github "facebook/Facebook-SDK-Swift"

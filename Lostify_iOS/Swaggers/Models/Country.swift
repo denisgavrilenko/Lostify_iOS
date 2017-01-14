@@ -9,6 +9,7 @@ import Foundation
 
 
 open class Country: JSONEncodable {
+    public var id: Int32?
     public var name: String?
     public var code: String?
     public var isoCodes: [String]?
@@ -18,6 +19,7 @@ open class Country: JSONEncodable {
     // MARK: JSONEncodable
     open func encodeToJSON() -> Any {
         var nillableDictionary = [String:Any?]()
+        nillableDictionary["id"] = self.id?.encodeToJSON()
         nillableDictionary["name"] = self.name
         nillableDictionary["code"] = self.code
         nillableDictionary["isoCodes"] = self.isoCodes?.encodeToJSON()

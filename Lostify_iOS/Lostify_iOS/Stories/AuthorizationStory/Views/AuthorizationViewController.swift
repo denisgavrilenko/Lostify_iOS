@@ -37,8 +37,11 @@ class AuthorizationViewController: UIViewController {
         verifyNumber()
     }
     
+    let model = FacebookAuthorization()
+    
     @IBAction func onFBSign(_ sender: AnyObject) {
-        verifyNumber()
+//        verifyNumber()
+        model.registerSocialToken(fromViewController: self)
     }
     
     private func verifyNumber() {

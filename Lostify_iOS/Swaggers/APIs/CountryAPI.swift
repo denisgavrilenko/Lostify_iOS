@@ -20,7 +20,7 @@ open class CountryAPI: APIBase {
     }
 
     /**
-     Get all countries with metadata where application is available
+     Get countries
      
      - parameter completion: completion handler to receive the data and the error objects
      */
@@ -32,12 +32,13 @@ open class CountryAPI: APIBase {
 
 
     /**
-     Get all countries with metadata where application is available
+     Get countries
      - GET /api/Country
      - examples: [{contentType=application/json, example=[ {
   "code" : "aeiou",
   "isoCodes" : [ "aeiou" ],
-  "name" : "aeiou"
+  "name" : "aeiou",
+  "id" : 123
 } ]}]
 
      - returns: RequestBuilder<[Country]> 

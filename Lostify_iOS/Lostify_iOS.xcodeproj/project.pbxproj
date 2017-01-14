@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F3BFC9D1E29C6E70089B1F2 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F3BFC9A1E29C6E70089B1F2 /* Bolts.framework */; };
+		4F3BFC9E1E29C6E70089B1F2 /* Bolts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4F3BFC9A1E29C6E70089B1F2 /* Bolts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4F3BFC9F1E29C6E70089B1F2 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F3BFC9B1E29C6E70089B1F2 /* FBSDKCoreKit.framework */; };
+		4F3BFCA01E29C6E70089B1F2 /* FBSDKCoreKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4F3BFC9B1E29C6E70089B1F2 /* FBSDKCoreKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4F3BFCA11E29C6E70089B1F2 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F3BFC9C1E29C6E70089B1F2 /* FBSDKLoginKit.framework */; };
+		4F3BFCA21E29C6E70089B1F2 /* FBSDKLoginKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4F3BFC9C1E29C6E70089B1F2 /* FBSDKLoginKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4F3BFCA41E29CADD0089B1F2 /* FacebookCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F3BFCA31E29CADD0089B1F2 /* FacebookCore.framework */; };
+		4F3BFCA51E29CADD0089B1F2 /* FacebookCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4F3BFCA31E29CADD0089B1F2 /* FacebookCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4F3BFCAB1E29D9000089B1F2 /* SocialNetworkAuthorizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3BFCAA1E29D9000089B1F2 /* SocialNetworkAuthorizing.swift */; };
+		4F3BFCB01E29D9E40089B1F2 /* FacebookAuthorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3BFCAF1E29D9E40089B1F2 /* FacebookAuthorization.swift */; };
+		4F3BFCBE1E29DF770089B1F2 /* AlamofireImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3BFCB21E29DF770089B1F2 /* AlamofireImplementations.swift */; };
+		4F3BFCBF1E29DF770089B1F2 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3BFCB31E29DF770089B1F2 /* APIHelper.swift */; };
+		4F3BFCC01E29DF770089B1F2 /* CountryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3BFCB51E29DF770089B1F2 /* CountryAPI.swift */; };
+		4F3BFCC11E29DF770089B1F2 /* ItemAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3BFCB61E29DF770089B1F2 /* ItemAPI.swift */; };
+		4F3BFCC21E29DF770089B1F2 /* TokenAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3BFCB71E29DF770089B1F2 /* TokenAPI.swift */; };
+		4F3BFCC31E29DF770089B1F2 /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3BFCB81E29DF770089B1F2 /* UserAPI.swift */; };
+		4F3BFCC41E29DF770089B1F2 /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3BFCB91E29DF770089B1F2 /* APIs.swift */; };
+		4F3BFCC51E29DF770089B1F2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3BFCBA1E29DF770089B1F2 /* Extensions.swift */; };
+		4F3BFCC61E29DF770089B1F2 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3BFCBC1E29DF770089B1F2 /* Country.swift */; };
+		4F3BFCC71E29DF770089B1F2 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3BFCBD1E29DF770089B1F2 /* Models.swift */; };
+		4F3BFCCA1E29E1790089B1F2 /* SocialNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3BFCC81E29E1790089B1F2 /* SocialNetwork.swift */; };
+		4F3BFCCB1E29E1790089B1F2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3BFCC91E29E1790089B1F2 /* User.swift */; };
 		4F59398F1E2969DB00A8AA97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F59398E1E2969DB00A8AA97 /* AppDelegate.swift */; };
 		4F5939961E2969DB00A8AA97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F5939951E2969DB00A8AA97 /* Assets.xcassets */; };
 		4F5939991E2969DB00A8AA97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F5939971E2969DB00A8AA97 /* LaunchScreen.storyboard */; };
@@ -66,15 +88,6 @@
 		4F593AAC1E296EB200A8AA97 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F593A2C1E296CDA00A8AA97 /* SnapKit.framework */; };
 		4F593AAD1E296EB200A8AA97 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F593A2D1E296CDA00A8AA97 /* Swinject.framework */; };
 		4F593AAE1E296EB200A8AA97 /* SwinjectStoryboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F593A2E1E296CDA00A8AA97 /* SwinjectStoryboard.framework */; };
-		4F593ABC1E296F6D00A8AA97 /* AlamofireImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F593AB11E296F6D00A8AA97 /* AlamofireImplementations.swift */; };
-		4F593ABD1E296F6D00A8AA97 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F593AB21E296F6D00A8AA97 /* APIHelper.swift */; };
-		4F593ABE1E296F6D00A8AA97 /* CountryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F593AB41E296F6D00A8AA97 /* CountryAPI.swift */; };
-		4F593ABF1E296F6D00A8AA97 /* ItemAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F593AB51E296F6D00A8AA97 /* ItemAPI.swift */; };
-		4F593AC01E296F6D00A8AA97 /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F593AB61E296F6D00A8AA97 /* UserAPI.swift */; };
-		4F593AC11E296F6D00A8AA97 /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F593AB71E296F6D00A8AA97 /* APIs.swift */; };
-		4F593AC21E296F6D00A8AA97 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F593AB81E296F6D00A8AA97 /* Extensions.swift */; };
-		4F593AC31E296F6D00A8AA97 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F593ABA1E296F6D00A8AA97 /* Country.swift */; };
-		4F593AC41E296F6D00A8AA97 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F593ABB1E296F6D00A8AA97 /* Models.swift */; };
 		4F593AC61E296FAD00A8AA97 /* CountryAPISpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F593AC51E296FAD00A8AA97 /* CountryAPISpec.swift */; };
 		4F69A30E1E297A2800FB1B00 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4F69A30D1E297A2800FB1B00 /* GoogleMaps.bundle */; };
 		4F69A30F1E2986FA00FB1B00 /* AuthorizationStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F69A3111E2986FA00FB1B00 /* AuthorizationStory.storyboard */; };
@@ -99,13 +112,6 @@
 		4FA53D0F1E29792D00563755 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FA53D0E1E29792D00563755 /* UIKit.framework */; };
 		4FB757F51E296FE300CA7406 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FB757F31E296FE300CA7406 /* Nimble.framework */; };
 		4FB757F61E296FE300CA7406 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FB757F41E296FE300CA7406 /* Quick.framework */; };
-		4FB757F71E2970CA00CA7406 /* CountryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F593AB41E296F6D00A8AA97 /* CountryAPI.swift */; };
-		4FB757F81E2970D700CA7406 /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F593AB71E296F6D00A8AA97 /* APIs.swift */; };
-		4FB757F91E2970DE00CA7406 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F593AB81E296F6D00A8AA97 /* Extensions.swift */; };
-		4FB757FA1E2970E100CA7406 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F593ABA1E296F6D00A8AA97 /* Country.swift */; };
-		4FB757FB1E2970E300CA7406 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F593ABB1E296F6D00A8AA97 /* Models.swift */; };
-		4FB757FC1E2970E700CA7406 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F593AB21E296F6D00A8AA97 /* APIHelper.swift */; };
-		4FB757FD1E2970E900CA7406 /* AlamofireImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F593AB11E296F6D00A8AA97 /* AlamofireImplementations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,11 +140,15 @@
 			files = (
 				4F593A301E296CDA00A8AA97 /* Alamofire.framework in Embed Frameworks */,
 				4F593A321E296CDA00A8AA97 /* ReactiveCocoa.framework in Embed Frameworks */,
+				4F3BFCA21E29C6E70089B1F2 /* FBSDKLoginKit.framework in Embed Frameworks */,
 				4F593A341E296CDA00A8AA97 /* ReactiveSwift.framework in Embed Frameworks */,
 				4F593A3C1E296CDA00A8AA97 /* SwinjectStoryboard.framework in Embed Frameworks */,
 				4F593A3A1E296CDA00A8AA97 /* Swinject.framework in Embed Frameworks */,
 				4F593A361E296CDA00A8AA97 /* Result.framework in Embed Frameworks */,
 				4F593A381E296CDA00A8AA97 /* SnapKit.framework in Embed Frameworks */,
+				4F3BFCA01E29C6E70089B1F2 /* FBSDKCoreKit.framework in Embed Frameworks */,
+				4F3BFCA51E29CADD0089B1F2 /* FacebookCore.framework in Embed Frameworks */,
+				4F3BFC9E1E29C6E70089B1F2 /* Bolts.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,6 +167,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4F3BFC9A1E29C6E70089B1F2 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = Carthage/Build/iOS/Bolts.framework; sourceTree = "<group>"; };
+		4F3BFC9B1E29C6E70089B1F2 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = Carthage/Build/iOS/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		4F3BFC9C1E29C6E70089B1F2 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = Carthage/Build/iOS/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		4F3BFCA31E29CADD0089B1F2 /* FacebookCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookCore.framework; path = Carthage/Build/iOS/FacebookCore.framework; sourceTree = "<group>"; };
+		4F3BFCAA1E29D9000089B1F2 /* SocialNetworkAuthorizing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialNetworkAuthorizing.swift; sourceTree = "<group>"; };
+		4F3BFCAF1E29D9E40089B1F2 /* FacebookAuthorization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookAuthorization.swift; sourceTree = "<group>"; };
+		4F3BFCB21E29DF770089B1F2 /* AlamofireImplementations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireImplementations.swift; sourceTree = "<group>"; };
+		4F3BFCB31E29DF770089B1F2 /* APIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		4F3BFCB51E29DF770089B1F2 /* CountryAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryAPI.swift; sourceTree = "<group>"; };
+		4F3BFCB61E29DF770089B1F2 /* ItemAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemAPI.swift; sourceTree = "<group>"; };
+		4F3BFCB71E29DF770089B1F2 /* TokenAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenAPI.swift; sourceTree = "<group>"; };
+		4F3BFCB81E29DF770089B1F2 /* UserAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
+		4F3BFCB91E29DF770089B1F2 /* APIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIs.swift; sourceTree = "<group>"; };
+		4F3BFCBA1E29DF770089B1F2 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4F3BFCBC1E29DF770089B1F2 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		4F3BFCBD1E29DF770089B1F2 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		4F3BFCC81E29E1790089B1F2 /* SocialNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialNetwork.swift; sourceTree = "<group>"; };
+		4F3BFCC91E29E1790089B1F2 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		4F59398B1E2969DB00A8AA97 /* Lostify_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lostify_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F59398E1E2969DB00A8AA97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F5939951E2969DB00A8AA97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -208,15 +236,6 @@
 		4F593A7C1E296D6500A8AA97 /* InitialUserStoryAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialUserStoryAssembly.swift; sourceTree = "<group>"; };
 		4F593A7D1E296D6500A8AA97 /* SwinjectStoryboard+Setup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwinjectStoryboard+Setup.swift"; sourceTree = "<group>"; };
 		4F593A7E1E296D6500A8AA97 /* UserStoryAssemblyBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserStoryAssemblyBase.swift; sourceTree = "<group>"; };
-		4F593AB11E296F6D00A8AA97 /* AlamofireImplementations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireImplementations.swift; sourceTree = "<group>"; };
-		4F593AB21E296F6D00A8AA97 /* APIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
-		4F593AB41E296F6D00A8AA97 /* CountryAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryAPI.swift; sourceTree = "<group>"; };
-		4F593AB51E296F6D00A8AA97 /* ItemAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemAPI.swift; sourceTree = "<group>"; };
-		4F593AB61E296F6D00A8AA97 /* UserAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
-		4F593AB71E296F6D00A8AA97 /* APIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIs.swift; sourceTree = "<group>"; };
-		4F593AB81E296F6D00A8AA97 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		4F593ABA1E296F6D00A8AA97 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
-		4F593ABB1E296F6D00A8AA97 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		4F593AC51E296FAD00A8AA97 /* CountryAPISpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryAPISpec.swift; sourceTree = "<group>"; };
 		4F69A30D1E297A2800FB1B00 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMaps.bundle; sourceTree = "<group>"; };
 		4F69A3101E2986FA00FB1B00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/AuthorizationStory.storyboard; sourceTree = "<group>"; };
@@ -255,16 +274,20 @@
 				4F593A331E296CDA00A8AA97 /* ReactiveSwift.framework in Frameworks */,
 				4F593A3B1E296CDA00A8AA97 /* SwinjectStoryboard.framework in Frameworks */,
 				4F593A391E296CDA00A8AA97 /* Swinject.framework in Frameworks */,
+				4F3BFCA41E29CADD0089B1F2 /* FacebookCore.framework in Frameworks */,
 				4F593A351E296CDA00A8AA97 /* Result.framework in Frameworks */,
 				4F593A371E296CDA00A8AA97 /* SnapKit.framework in Frameworks */,
+				4F3BFCA11E29C6E70089B1F2 /* FBSDKLoginKit.framework in Frameworks */,
 				4FA53CF31E2978B100563755 /* GoogleMapsBase.framework in Frameworks */,
 				4FA53CF51E2978B500563755 /* GoogleMaps.framework in Frameworks */,
 				4FA53CF71E2978C800563755 /* GoogleMapsCore.framework in Frameworks */,
 				4FA53CFB1E2978D700563755 /* CoreData.framework in Frameworks */,
 				4FA53CF91E2978D100563755 /* Accelerate.framework in Frameworks */,
 				4FA53D0F1E29792D00563755 /* UIKit.framework in Frameworks */,
+				4F3BFC9F1E29C6E70089B1F2 /* FBSDKCoreKit.framework in Frameworks */,
 				4FA53D0D1E29792900563755 /* SystemConfiguration.framework in Frameworks */,
 				4FA53D0B1E29792300563755 /* QuartzCore.framework in Frameworks */,
+				4F3BFC9D1E29C6E70089B1F2 /* Bolts.framework in Frameworks */,
 				4FA53D091E29791B00563755 /* OpenGLES.framework in Frameworks */,
 				4FA53D071E29791300563755 /* libz.tbd in Frameworks */,
 				4FA53D051E29790D00563755 /* libc++.tbd in Frameworks */,
@@ -301,9 +324,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F3BFCA61E29D7C70089B1F2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4F3BFCA91E29D8F00089B1F2 /* SocialNetworkAuthorizing */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4F3BFCA91E29D8F00089B1F2 /* SocialNetworkAuthorizing */ = {
+			isa = PBXGroup;
+			children = (
+				4F3BFCAC1E29D9230089B1F2 /* Facebook */,
+				4F3BFCAA1E29D9000089B1F2 /* SocialNetworkAuthorizing.swift */,
+			);
+			path = SocialNetworkAuthorizing;
+			sourceTree = "<group>";
+		};
+		4F3BFCAC1E29D9230089B1F2 /* Facebook */ = {
+			isa = PBXGroup;
+			children = (
+				4F3BFCAF1E29D9E40089B1F2 /* FacebookAuthorization.swift */,
+			);
+			path = Facebook;
+			sourceTree = "<group>";
+		};
+		4F3BFCB11E29DF770089B1F2 /* Swaggers */ = {
+			isa = PBXGroup;
+			children = (
+				4F3BFCB21E29DF770089B1F2 /* AlamofireImplementations.swift */,
+				4F3BFCB31E29DF770089B1F2 /* APIHelper.swift */,
+				4F3BFCB41E29DF770089B1F2 /* APIs */,
+				4F3BFCB91E29DF770089B1F2 /* APIs.swift */,
+				4F3BFCBA1E29DF770089B1F2 /* Extensions.swift */,
+				4F3BFCBB1E29DF770089B1F2 /* Models */,
+				4F3BFCBD1E29DF770089B1F2 /* Models.swift */,
+			);
+			path = Swaggers;
+			sourceTree = "<group>";
+		};
+		4F3BFCB41E29DF770089B1F2 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				4F3BFCB51E29DF770089B1F2 /* CountryAPI.swift */,
+				4F3BFCB61E29DF770089B1F2 /* ItemAPI.swift */,
+				4F3BFCB71E29DF770089B1F2 /* TokenAPI.swift */,
+				4F3BFCB81E29DF770089B1F2 /* UserAPI.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		4F3BFCBB1E29DF770089B1F2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4F3BFCC81E29E1790089B1F2 /* SocialNetwork.swift */,
+				4F3BFCC91E29E1790089B1F2 /* User.swift */,
+				4F3BFCBC1E29DF770089B1F2 /* Country.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		4F5939821E2969DB00A8AA97 = {
 			isa = PBXGroup;
 			children = (
+				4F3BFCB11E29DF770089B1F2 /* Swaggers */,
 				4F59398D1E2969DB00A8AA97 /* Lostify_iOS */,
 				4F5939A21E2969DB00A8AA97 /* Lostify_iOSTests */,
 				4F5939AD1E2969DB00A8AA97 /* Lostify_iOSUITests */,
@@ -325,7 +409,6 @@
 		4F59398D1E2969DB00A8AA97 /* Lostify_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				4F593AB01E296F6D00A8AA97 /* Swaggers */,
 				4F593A3F1E296D6500A8AA97 /* Resources */,
 				4F593A4E1E296D6500A8AA97 /* Stories */,
 				4F593A6D1E296D6500A8AA97 /* Modules */,
@@ -360,6 +443,10 @@
 		4F593A3E1E296CE700A8AA97 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4F3BFCA31E29CADD0089B1F2 /* FacebookCore.framework */,
+				4F3BFC9A1E29C6E70089B1F2 /* Bolts.framework */,
+				4F3BFC9B1E29C6E70089B1F2 /* FBSDKCoreKit.framework */,
+				4F3BFC9C1E29C6E70089B1F2 /* FBSDKLoginKit.framework */,
 				4FA53D0E1E29792D00563755 /* UIKit.framework */,
 				4FA53D0C1E29792900563755 /* SystemConfiguration.framework */,
 				4FA53D0A1E29792300563755 /* QuartzCore.framework */,
@@ -449,6 +536,7 @@
 		4F593A511E296D6500A8AA97 /* AuthorizationStory */ = {
 			isa = PBXGroup;
 			children = (
+				4F3BFCA61E29D7C70089B1F2 /* Models */,
 				4F69A3111E2986FA00FB1B00 /* AuthorizationStory.storyboard */,
 				4F593A531E296D6500A8AA97 /* Router */,
 				4F593A551E296D6500A8AA97 /* Views */,
@@ -669,38 +757,6 @@
 			path = ServerAPITests;
 			sourceTree = "<group>";
 		};
-		4F593AB01E296F6D00A8AA97 /* Swaggers */ = {
-			isa = PBXGroup;
-			children = (
-				4F593AB11E296F6D00A8AA97 /* AlamofireImplementations.swift */,
-				4F593AB21E296F6D00A8AA97 /* APIHelper.swift */,
-				4F593AB31E296F6D00A8AA97 /* APIs */,
-				4F593AB71E296F6D00A8AA97 /* APIs.swift */,
-				4F593AB81E296F6D00A8AA97 /* Extensions.swift */,
-				4F593AB91E296F6D00A8AA97 /* Models */,
-				4F593ABB1E296F6D00A8AA97 /* Models.swift */,
-			);
-			path = Swaggers;
-			sourceTree = "<group>";
-		};
-		4F593AB31E296F6D00A8AA97 /* APIs */ = {
-			isa = PBXGroup;
-			children = (
-				4F593AB41E296F6D00A8AA97 /* CountryAPI.swift */,
-				4F593AB51E296F6D00A8AA97 /* ItemAPI.swift */,
-				4F593AB61E296F6D00A8AA97 /* UserAPI.swift */,
-			);
-			path = APIs;
-			sourceTree = "<group>";
-		};
-		4F593AB91E296F6D00A8AA97 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				4F593ABA1E296F6D00A8AA97 /* Country.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -771,6 +827,7 @@
 				TargetAttributes = {
 					4F59398A1E2969DB00A8AA97 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = FQAXAS293G;
 						ProvisioningStyle = Automatic;
 					};
 					4F59399E1E2969DB00A8AA97 = {
@@ -858,31 +915,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F3BFCC61E29DF770089B1F2 /* Country.swift in Sources */,
+				4F3BFCBF1E29DF770089B1F2 /* APIHelper.swift in Sources */,
+				4F3BFCC51E29DF770089B1F2 /* Extensions.swift in Sources */,
 				4F593A9A1E296D6500A8AA97 /* ReusableView.swift in Sources */,
-				4F593AC11E296F6D00A8AA97 /* APIs.swift in Sources */,
+				4F3BFCCB1E29E1790089B1F2 /* User.swift in Sources */,
 				4F593A991E296D6500A8AA97 /* ReusableScrollView.swift in Sources */,
-				4F593AC41E296F6D00A8AA97 /* Models.swift in Sources */,
-				4F593ABC1E296F6D00A8AA97 /* AlamofireImplementations.swift in Sources */,
-				4F593ABE1E296F6D00A8AA97 /* CountryAPI.swift in Sources */,
+				4F3BFCC01E29DF770089B1F2 /* CountryAPI.swift in Sources */,
+				4F3BFCC21E29DF770089B1F2 /* TokenAPI.swift in Sources */,
 				4F69A3251E29A6DD00FB1B00 /* VerifyNumberViewController.swift in Sources */,
+				4F3BFCAB1E29D9000089B1F2 /* SocialNetworkAuthorizing.swift in Sources */,
+				4F3BFCCA1E29E1790089B1F2 /* SocialNetwork.swift in Sources */,
 				4F69A3231E29A63D00FB1B00 /* AuthorizationVerifyNumberRouter.swift in Sources */,
 				4F593A911E296D6500A8AA97 /* InitialViewController.swift in Sources */,
 				4F593A951E296D6500A8AA97 /* ItemCardViewController.swift in Sources */,
 				4F593A8E1E296D6500A8AA97 /* AuthorizationViewController.swift in Sources */,
 				4F593A8D1E296D6500A8AA97 /* AuthorizationRouter.swift in Sources */,
-				4F593AC31E296F6D00A8AA97 /* Country.swift in Sources */,
-				4F593AC21E296F6D00A8AA97 /* Extensions.swift in Sources */,
+				4F3BFCC41E29DF770089B1F2 /* APIs.swift in Sources */,
+				4F3BFCB01E29D9E40089B1F2 /* FacebookAuthorization.swift in Sources */,
 				4F593A9B1E296D6500A8AA97 /* ApplicationAssembly.swift in Sources */,
-				4F593ABD1E296F6D00A8AA97 /* APIHelper.swift in Sources */,
 				4F59398F1E2969DB00A8AA97 /* AppDelegate.swift in Sources */,
 				4F593A9D1E296D6500A8AA97 /* AuthorizationUserStoryAssembly.swift in Sources */,
 				4F593A9E1E296D6500A8AA97 /* InitialUserStoryAssembly.swift in Sources */,
-				4F593AC01E296F6D00A8AA97 /* UserAPI.swift in Sources */,
+				4F3BFCC11E29DF770089B1F2 /* ItemAPI.swift in Sources */,
+				4F3BFCBE1E29DF770089B1F2 /* AlamofireImplementations.swift in Sources */,
 				4F593A901E296D6500A8AA97 /* InitialViewModel.swift in Sources */,
-				4F593ABF1E296F6D00A8AA97 /* ItemAPI.swift in Sources */,
 				4F593AA01E296D6500A8AA97 /* UserStoryAssemblyBase.swift in Sources */,
 				4F593A9F1E296D6500A8AA97 /* SwinjectStoryboard+Setup.swift in Sources */,
 				4F593A971E296D6500A8AA97 /* MapViewController.swift in Sources */,
+				4F3BFCC71E29DF770089B1F2 /* Models.swift in Sources */,
+				4F3BFCC31E29DF770089B1F2 /* UserAPI.swift in Sources */,
 				4F593A9C1E296D6500A8AA97 /* HelperAssembly.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -891,15 +953,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FB757F91E2970DE00CA7406 /* Extensions.swift in Sources */,
-				4FB757F71E2970CA00CA7406 /* CountryAPI.swift in Sources */,
 				4F593AC61E296FAD00A8AA97 /* CountryAPISpec.swift in Sources */,
-				4FB757F81E2970D700CA7406 /* APIs.swift in Sources */,
-				4FB757FC1E2970E700CA7406 /* APIHelper.swift in Sources */,
-				4FB757FA1E2970E100CA7406 /* Country.swift in Sources */,
-				4FB757FD1E2970E900CA7406 /* AlamofireImplementations.swift in Sources */,
 				4F5939A41E2969DB00A8AA97 /* Lostify_iOSTests.swift in Sources */,
-				4FB757FB1E2970E300CA7406 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1049,6 +1104,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FQAXAS293G;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -1068,6 +1124,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FQAXAS293G;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
