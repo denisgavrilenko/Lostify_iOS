@@ -78,6 +78,8 @@
 		4F593AC61E296FAD00A8AA97 /* CountryAPISpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F593AC51E296FAD00A8AA97 /* CountryAPISpec.swift */; };
 		4F69A30E1E297A2800FB1B00 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4F69A30D1E297A2800FB1B00 /* GoogleMaps.bundle */; };
 		4F69A30F1E2986FA00FB1B00 /* AuthorizationStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F69A3111E2986FA00FB1B00 /* AuthorizationStory.storyboard */; };
+		4F69A3231E29A63D00FB1B00 /* AuthorizationVerifyNumberRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F69A3221E29A63D00FB1B00 /* AuthorizationVerifyNumberRouter.swift */; };
+		4F69A3251E29A6DD00FB1B00 /* VerifyNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F69A3241E29A6DD00FB1B00 /* VerifyNumberViewController.swift */; };
 		4FA53CEF1E2973E300563755 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4FB757F31E296FE300CA7406 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4FA53CF01E2973E300563755 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4FB757F41E296FE300CA7406 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4FA53CF31E2978B100563755 /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FA53CF21E2978B100563755 /* GoogleMapsBase.framework */; };
@@ -222,6 +224,8 @@
 		4F69A3191E2988BC00FB1B00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		4F69A31F1E29920300FB1B00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AuthorizationStory.strings; sourceTree = "<group>"; };
 		4F69A3211E29920500FB1B00 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/AuthorizationStory.strings; sourceTree = "<group>"; };
+		4F69A3221E29A63D00FB1B00 /* AuthorizationVerifyNumberRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationVerifyNumberRouter.swift; sourceTree = "<group>"; };
+		4F69A3241E29A6DD00FB1B00 /* VerifyNumberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyNumberViewController.swift; sourceTree = "<group>"; };
 		4FA53CF21E2978B100563755 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = GoogleSDK/GoogleMaps/Subspecs/Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
 		4FA53CF41E2978B500563755 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = GoogleSDK/GoogleMaps/Subspecs/Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
 		4FA53CF61E2978C800563755 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = GoogleSDK/GoogleMaps/Subspecs/Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
@@ -456,6 +460,7 @@
 			isa = PBXGroup;
 			children = (
 				4F593A541E296D6500A8AA97 /* AuthorizationRouter.swift */,
+				4F69A3221E29A63D00FB1B00 /* AuthorizationVerifyNumberRouter.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -464,6 +469,7 @@
 			isa = PBXGroup;
 			children = (
 				4F593A561E296D6500A8AA97 /* AuthorizationViewController.swift */,
+				4F69A3241E29A6DD00FB1B00 /* VerifyNumberViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -858,6 +864,8 @@
 				4F593AC41E296F6D00A8AA97 /* Models.swift in Sources */,
 				4F593ABC1E296F6D00A8AA97 /* AlamofireImplementations.swift in Sources */,
 				4F593ABE1E296F6D00A8AA97 /* CountryAPI.swift in Sources */,
+				4F69A3251E29A6DD00FB1B00 /* VerifyNumberViewController.swift in Sources */,
+				4F69A3231E29A63D00FB1B00 /* AuthorizationVerifyNumberRouter.swift in Sources */,
 				4F593A911E296D6500A8AA97 /* InitialViewController.swift in Sources */,
 				4F593A951E296D6500A8AA97 /* ItemCardViewController.swift in Sources */,
 				4F593A8E1E296D6500A8AA97 /* AuthorizationViewController.swift in Sources */,

@@ -11,8 +11,8 @@ import SwinjectStoryboard
 extension SwinjectStoryboard {
     class func setupAuthorizationStory() {
         defaultContainer.registerForStoryboard(AuthorizationViewController.self) { (r, c) in
-            c.router = r.resolve(AuthorizationRouter.self)
+            c.verifyNumberRouter = r.resolve(AuthorizationVerifyNumberRouting.self)
         }
-        defaultContainer.register(AuthorizationRouter.self) { _ in AuthorizationDefaultRouter() }
+        defaultContainer.register(AuthorizationVerifyNumberRouting.self) { _ in AuthorizationVerifyNumberRouter() }
     }
 }

@@ -12,7 +12,7 @@ import ReactiveSwift
 import Result
 
 class AuthorizationViewController: UIViewController {
-    final var router: AuthorizationRouter!
+    final var verifyNumberRouter: AuthorizationVerifyNumberRouting!
     
     @IBOutlet var signInButtons: [UIButton]!
     @IBOutlet weak var signButton: UIButton!
@@ -27,10 +27,22 @@ class AuthorizationViewController: UIViewController {
         })
     }
     
+    // MARK: - Actions
     
-    func onLogin() {
-        
-//        router.navigateToMain(view: self)
+    @IBAction func onGoogleSign(_ sender: AnyObject) {
+        verifyNumber()
+    }
+    
+    @IBAction func onVKSign(_ sender: AnyObject) {
+        verifyNumber()
+    }
+    
+    @IBAction func onFBSign(_ sender: AnyObject) {
+        verifyNumber()
+    }
+    
+    private func verifyNumber() {
+        verifyNumberRouter.navigateToVerifyNumber(fromView: self)
     }
     
     // MARK: - Animation
