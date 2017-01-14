@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11521.1" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="8jc-gc-OKy">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11517.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Authorization View Controller-->
+        <scene sceneID="xv7-jo-7ZK">
+            <objects>
+                <viewController id="8jc-gc-OKy" customClass="AuthorizationViewController" customModule="Lostify_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="T8E-Pz-evU"/>
+                        <viewControllerLayoutGuide type="bottom" id="CdA-kq-qXw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ynm-8L-WYr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="authorization_background" translatesAutoresizingMaskIntoConstraints="NO" id="gxQ-gv-qDW"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sde-DX-RYb">
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Sign up / in" backgroundImage="signinup_button_background">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="THO-zr-Gzm" userLabel="Google">
+                                <state key="normal" backgroundImage="selectsignmethod_google_plus"/>
+                            </button>
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S75-YJ-djb" userLabel="VK">
+                                <state key="normal" backgroundImage="selectsignmethod_vk"/>
+                            </button>
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qud-mR-Xv4" userLabel="FB">
+                                <state key="normal" backgroundImage="selectsignmethod_fb"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gxQ-gv-qDW" firstAttribute="leading" secondItem="Ynm-8L-WYr" secondAttribute="leading" id="5h0-r4-prn"/>
+                            <constraint firstItem="Sde-DX-RYb" firstAttribute="centerY" secondItem="Ynm-8L-WYr" secondAttribute="centerY" id="5yZ-AP-chk"/>
+                            <constraint firstItem="THO-zr-Gzm" firstAttribute="trailing" secondItem="gxQ-gv-qDW" secondAttribute="centerX" multiplier="0.5" id="9rj-Ht-34G"/>
+                            <constraint firstAttribute="trailing" secondItem="gxQ-gv-qDW" secondAttribute="trailing" id="A80-mq-tNU"/>
+                            <constraint firstItem="THO-zr-Gzm" firstAttribute="centerY" secondItem="Ynm-8L-WYr" secondAttribute="centerY" id="HcX-Ig-rgZ"/>
+                            <constraint firstItem="Qud-mR-Xv4" firstAttribute="centerY" secondItem="Ynm-8L-WYr" secondAttribute="centerY" id="MXh-jW-qQn"/>
+                            <constraint firstItem="S75-YJ-djb" firstAttribute="centerX" secondItem="Ynm-8L-WYr" secondAttribute="centerX" id="Pec-OC-mPU"/>
+                            <constraint firstItem="CdA-kq-qXw" firstAttribute="top" secondItem="gxQ-gv-qDW" secondAttribute="bottom" id="QiS-a9-4rr"/>
+                            <constraint firstItem="Sde-DX-RYb" firstAttribute="width" secondItem="Ynm-8L-WYr" secondAttribute="width" multiplier="0.9" id="VQE-6O-Syu"/>
+                            <constraint firstItem="S75-YJ-djb" firstAttribute="centerY" secondItem="Ynm-8L-WYr" secondAttribute="centerY" id="bsg-vf-5U6"/>
+                            <constraint firstItem="gxQ-gv-qDW" firstAttribute="top" secondItem="Ynm-8L-WYr" secondAttribute="top" id="fBB-Cd-7UI"/>
+                            <constraint firstItem="Sde-DX-RYb" firstAttribute="centerX" secondItem="Ynm-8L-WYr" secondAttribute="centerX" id="ti5-iN-Jo1"/>
+                            <constraint firstItem="Qud-mR-Xv4" firstAttribute="leading" secondItem="gxQ-gv-qDW" secondAttribute="centerX" multiplier="1.5" id="zBo-dU-s3L"/>
+                        </constraints>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="signButton" destination="Sde-DX-RYb" id="hJH-rg-UJ5"/>
+                        <outletCollection property="signInButtons" destination="THO-zr-Gzm" collectionClass="NSMutableArray" id="A4r-ev-8UV"/>
+                        <outletCollection property="signInButtons" destination="S75-YJ-djb" collectionClass="NSMutableArray" id="RVL-k1-U3e"/>
+                        <outletCollection property="signInButtons" destination="Qud-mR-Xv4" collectionClass="NSMutableArray" id="ftb-1r-4Ki"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N4b-0D-XcF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-258.39999999999998" y="165.06746626686657"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="authorization_background" width="375" height="667"/>
+        <image name="selectsignmethod_fb" width="64" height="64"/>
+        <image name="selectsignmethod_google_plus" width="64" height="64"/>
+        <image name="selectsignmethod_vk" width="65" height="64"/>
+        <image name="signinup_button_background" width="64" height="64"/>
+    </resources>
+</document>
