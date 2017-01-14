@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4FB77A941DA44D1500C782B0"
-               BuildableName = "Lostify.app"
-               BlueprintName = "Lostify"
-               ReferencedContainer = "container:Lostify.xcodeproj">
+               BlueprintIdentifier = "4F59398A1E2969DB00A8AA97"
+               BuildableName = "Lostify_iOS.app"
+               BlueprintName = "Lostify_iOS"
+               ReferencedContainer = "container:Lostify_iOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4FB77AA81DA44D1600C782B0"
-               BuildableName = "LostifyTests.xctest"
-               BlueprintName = "LostifyTests"
-               ReferencedContainer = "container:Lostify.xcodeproj">
+               BlueprintIdentifier = "4F59399E1E2969DB00A8AA97"
+               BuildableName = "Lostify_iOSTests.xctest"
+               BlueprintName = "Lostify_iOSTests"
+               ReferencedContainer = "container:Lostify_iOS.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4F5939A91E2969DB00A8AA97"
+               BuildableName = "Lostify_iOSUITests.xctest"
+               BlueprintName = "Lostify_iOSUITests"
+               ReferencedContainer = "container:Lostify_iOS.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4FB77A941DA44D1500C782B0"
-            BuildableName = "Lostify.app"
-            BlueprintName = "Lostify"
-            ReferencedContainer = "container:Lostify.xcodeproj">
+            BlueprintIdentifier = "4F59398A1E2969DB00A8AA97"
+            BuildableName = "Lostify_iOS.app"
+            BlueprintName = "Lostify_iOS"
+            ReferencedContainer = "container:Lostify_iOS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -65,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4FB77A941DA44D1500C782B0"
-            BuildableName = "Lostify.app"
-            BlueprintName = "Lostify"
-            ReferencedContainer = "container:Lostify.xcodeproj">
+            BlueprintIdentifier = "4F59398A1E2969DB00A8AA97"
+            BuildableName = "Lostify_iOS.app"
+            BlueprintName = "Lostify_iOS"
+            ReferencedContainer = "container:Lostify_iOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -84,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4FB77A941DA44D1500C782B0"
-            BuildableName = "Lostify.app"
-            BlueprintName = "Lostify"
-            ReferencedContainer = "container:Lostify.xcodeproj">
+            BlueprintIdentifier = "4F59398A1E2969DB00A8AA97"
+            BuildableName = "Lostify_iOS.app"
+            BlueprintName = "Lostify_iOS"
+            ReferencedContainer = "container:Lostify_iOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
