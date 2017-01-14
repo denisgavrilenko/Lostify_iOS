@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11521.1" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="8jc-gc-OKy">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11517.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Authorization View Controller-->
+        <scene sceneID="xv7-jo-7ZK">
+            <objects>
+                <viewController id="8jc-gc-OKy" customClass="AuthorizationViewController" customModule="Lostify_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="T8E-Pz-evU"/>
+                        <viewControllerLayoutGuide type="bottom" id="CdA-kq-qXw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ynm-8L-WYr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="authorization_background" translatesAutoresizingMaskIntoConstraints="NO" id="gxQ-gv-qDW"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sde-DX-RYb">
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Sign up / in" backgroundImage="signinup_button_background">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="THO-zr-Gzm" userLabel="Google">
+                                <state key="normal" backgroundImage="selectsignmethod_google_plus"/>
+                                <connections>
+                                    <action selector="onGoogleSign:" destination="8jc-gc-OKy" eventType="touchUpInside" id="dxJ-kC-KBl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S75-YJ-djb" userLabel="VK">
+                                <state key="normal" backgroundImage="selectsignmethod_vk"/>
+                                <connections>
+                                    <action selector="onVKSign:" destination="8jc-gc-OKy" eventType="touchUpInside" id="Sf5-NQ-8iz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qud-mR-Xv4" userLabel="FB">
+                                <state key="normal" backgroundImage="selectsignmethod_fb"/>
+                                <connections>
+                                    <action selector="onFBSign:" destination="8jc-gc-OKy" eventType="touchUpInside" id="gsK-Gu-bsV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gxQ-gv-qDW" firstAttribute="leading" secondItem="Ynm-8L-WYr" secondAttribute="leading" id="5h0-r4-prn"/>
+                            <constraint firstItem="Sde-DX-RYb" firstAttribute="centerY" secondItem="Ynm-8L-WYr" secondAttribute="centerY" id="5yZ-AP-chk"/>
+                            <constraint firstItem="THO-zr-Gzm" firstAttribute="trailing" secondItem="gxQ-gv-qDW" secondAttribute="centerX" multiplier="0.5" id="9rj-Ht-34G"/>
+                            <constraint firstAttribute="trailing" secondItem="gxQ-gv-qDW" secondAttribute="trailing" id="A80-mq-tNU"/>
+                            <constraint firstItem="THO-zr-Gzm" firstAttribute="centerY" secondItem="Ynm-8L-WYr" secondAttribute="centerY" id="HcX-Ig-rgZ"/>
+                            <constraint firstItem="Qud-mR-Xv4" firstAttribute="centerY" secondItem="Ynm-8L-WYr" secondAttribute="centerY" id="MXh-jW-qQn"/>
+                            <constraint firstItem="S75-YJ-djb" firstAttribute="centerX" secondItem="Ynm-8L-WYr" secondAttribute="centerX" id="Pec-OC-mPU"/>
+                            <constraint firstItem="CdA-kq-qXw" firstAttribute="top" secondItem="gxQ-gv-qDW" secondAttribute="bottom" id="QiS-a9-4rr"/>
+                            <constraint firstItem="Sde-DX-RYb" firstAttribute="width" secondItem="Ynm-8L-WYr" secondAttribute="width" multiplier="0.9" id="VQE-6O-Syu"/>
+                            <constraint firstItem="S75-YJ-djb" firstAttribute="centerY" secondItem="Ynm-8L-WYr" secondAttribute="centerY" id="bsg-vf-5U6"/>
+                            <constraint firstItem="gxQ-gv-qDW" firstAttribute="top" secondItem="Ynm-8L-WYr" secondAttribute="top" id="fBB-Cd-7UI"/>
+                            <constraint firstItem="Sde-DX-RYb" firstAttribute="centerX" secondItem="Ynm-8L-WYr" secondAttribute="centerX" id="ti5-iN-Jo1"/>
+                            <constraint firstItem="Qud-mR-Xv4" firstAttribute="leading" secondItem="gxQ-gv-qDW" secondAttribute="centerX" multiplier="1.5" id="zBo-dU-s3L"/>
+                        </constraints>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="signButton" destination="Sde-DX-RYb" id="hJH-rg-UJ5"/>
+                        <outletCollection property="signInButtons" destination="THO-zr-Gzm" collectionClass="NSMutableArray" id="A4r-ev-8UV"/>
+                        <outletCollection property="signInButtons" destination="S75-YJ-djb" collectionClass="NSMutableArray" id="RVL-k1-U3e"/>
+                        <outletCollection property="signInButtons" destination="Qud-mR-Xv4" collectionClass="NSMutableArray" id="ftb-1r-4Ki"/>
+                        <segue destination="cD6-4d-v6i" kind="show" identifier="verifyNumberSeque" id="FqD-PG-wn9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N4b-0D-XcF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-258.39999999999998" y="165.06746626686657"/>
+        </scene>
+        <!--Verify Number View Controller-->
+        <scene sceneID="dmf-Tl-2g1">
+            <objects>
+                <viewController id="cD6-4d-v6i" customClass="VerifyNumberViewController" customModule="Lostify_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="v7C-p2-b7o"/>
+                        <viewControllerLayoutGuide type="bottom" id="Jdg-aa-c7Z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ghh-Bv-CcM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="authorization_background" translatesAutoresizingMaskIntoConstraints="NO" id="tKn-hG-epu"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="verify_number_textfield_background" translatesAutoresizingMaskIntoConstraints="NO" id="zcE-oM-qHN"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tao-rp-ioh">
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please send your phone number to validate you are not fake" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mgr-1C-eND">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Tao-rp-ioh" firstAttribute="centerX" secondItem="ghh-Bv-CcM" secondAttribute="centerX" id="3AG-3S-jSE"/>
+                            <constraint firstAttribute="bottom" secondItem="tKn-hG-epu" secondAttribute="bottom" id="DbW-PI-Xff"/>
+                            <constraint firstItem="Mgr-1C-eND" firstAttribute="width" secondItem="ghh-Bv-CcM" secondAttribute="width" multiplier="0.8" id="Ivc-bd-dJb"/>
+                            <constraint firstItem="Tao-rp-ioh" firstAttribute="centerY" secondItem="ghh-Bv-CcM" secondAttribute="centerY" id="OGh-dW-tTZ"/>
+                            <constraint firstItem="tKn-hG-epu" firstAttribute="leading" secondItem="ghh-Bv-CcM" secondAttribute="leading" id="b67-gt-rLu"/>
+                            <constraint firstItem="Tao-rp-ioh" firstAttribute="leading" secondItem="zcE-oM-qHN" secondAttribute="leading" id="gFl-Dg-j0X"/>
+                            <constraint firstItem="Tao-rp-ioh" firstAttribute="width" secondItem="ghh-Bv-CcM" secondAttribute="width" multiplier="0.9" id="hyw-V8-JZu"/>
+                            <constraint firstItem="zcE-oM-qHN" firstAttribute="top" secondItem="Mgr-1C-eND" secondAttribute="bottom" constant="20" id="kto-Q3-p6G"/>
+                            <constraint firstItem="tKn-hG-epu" firstAttribute="top" secondItem="ghh-Bv-CcM" secondAttribute="top" id="olV-0h-gkh"/>
+                            <constraint firstItem="Mgr-1C-eND" firstAttribute="centerX" secondItem="ghh-Bv-CcM" secondAttribute="centerX" id="qWp-ak-SPi"/>
+                            <constraint firstItem="Tao-rp-ioh" firstAttribute="trailing" secondItem="zcE-oM-qHN" secondAttribute="trailing" id="rro-fZ-aeg"/>
+                            <constraint firstAttribute="trailing" secondItem="tKn-hG-epu" secondAttribute="trailing" id="sQO-Ef-NTu"/>
+                            <constraint firstItem="Tao-rp-ioh" firstAttribute="centerY" secondItem="zcE-oM-qHN" secondAttribute="centerY" id="zgL-uu-oae"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="numberTextField" destination="Tao-rp-ioh" id="Khz-XN-iNd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qj1-bo-A6h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="696.79999999999995" y="164.16791604197903"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="authorization_background" width="375" height="667"/>
+        <image name="selectsignmethod_fb" width="64" height="64"/>
+        <image name="selectsignmethod_google_plus" width="64" height="64"/>
+        <image name="selectsignmethod_vk" width="65" height="64"/>
+        <image name="signinup_button_background" width="64" height="64"/>
+        <image name="verify_number_textfield_background" width="64" height="64"/>
+    </resources>
+</document>
